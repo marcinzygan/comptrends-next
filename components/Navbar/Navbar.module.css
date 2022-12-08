@@ -2,17 +2,14 @@
 
 .logo {
   width: 80px;
-  /* height: 30px; */
   z-index: 100;
-  /* padding-left: 3rem; */
+
   color: var(--clr-white);
 }
 .nav {
   margin-top: 1rem;
   padding-left: 2rem;
-  /* padding: 0 2.5rem 0 2.5rem; */
   width: 100%;
-  /* height: 100px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,7 +29,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* transform: translate(-50% -50%); */
 }
 .dot__1 {
   top: 20%;
@@ -65,9 +61,8 @@
   left: 10%;
 }
 .nav__button {
-  /* margin-top: 0.5rem; */
   padding: 1rem;
-  /* margin-bottom: 0.5rem; */
+
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -92,7 +87,7 @@
   cursor: pointer;
   position: relative;
   width: 120px;
-  /* padding: 0.5rem; */
+
   text-align: center;
 }
 
@@ -126,7 +121,6 @@
   font-weight: var(--fw-regular);
   font-size: var(--fs-nav);
   color: var(--clr-dark);
-
   z-index: 5;
 }
 .link__container:hover .nav__link {
@@ -143,8 +137,6 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    /* Hide nav links */
-    /* transform: translateX(-150%); */
     transition: all 1.2s ease-in-out;
     background-color: var(--clr-white);
     opacity: 0.999;
@@ -154,11 +146,10 @@
 
   .nav__open {
     /* show links */
-    /* transform: translateX(0); */
     clip-path: circle(150% at 50% 0);
   }
 }
-/* DONT SHOW NAV BUTTON ON DISPLAY MORE THEN 800 PX */
+/* DONT SHOW ON DISPLAY MORE THEN 800 PX */
 @media (min-width: 1300px) {
   .nav__button {
     display: none;

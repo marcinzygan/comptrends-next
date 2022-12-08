@@ -11,7 +11,7 @@
   --fw-bold: 700;
   --ff-text: "Maven Pro", sans-serif;
   --ff-headings: "Lexend", sans-serif;
-  --clr-white: #ffffff;
+  --clr-white: rgb(255, 255, 255);
   --clr-dark: #1d1d1b;
   --clr-accentFirst: #ff11c7;
   --clr-accentSecond: #58effb;
