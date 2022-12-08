@@ -7,7 +7,8 @@
   color: var(--clr-white);
 }
 .nav {
-  margin-top: 1rem;
+  padding-top: 1rem;
+  /* margin-top: 1rem; */
   padding-left: 2rem;
   width: 100%;
   display: flex;
@@ -100,6 +101,7 @@
   background-color: var(--clr-white);
   height: 5px;
   width: 56px;
+  z-index: 3;
 }
 .nav__circle {
   display: none;
@@ -174,7 +176,8 @@
 /* 300px */
 @media (min-width: 300px) {
   .nav {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    padding-top: 2.5rem;
   }
   .logo {
     width: 120px;
@@ -183,5 +186,15 @@
     width: 200px;
     height: 270px;
     transform: translateY(11px);
+  }
+}
+@media (min-width: 800px) {
+  .logo {
+    width: 175px;
+  }
+}
+@media (min-width: 1300px) {
+  .nav {
+    padding-left: 3rem;
   }
 }

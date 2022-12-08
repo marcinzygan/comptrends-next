@@ -1,9 +1,11 @@
 import Head from "next/head";
+
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 // COMPONENTS
 import Navbar from "../components/Navbar/Navbar.js";
 import SideNavbar from "../components/SideNavbar/SideNavbar.js";
+import HeroSection from "../components/HeroSection/HeroSection.js";
 // STATE
 import { checkScreenSize } from "../State/hideAnimationSlice";
 
@@ -22,6 +24,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <SideNavbar />
+      <HeroSection />
     </div>
   );
 }

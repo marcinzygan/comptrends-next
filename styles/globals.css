@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Maven+Pro:wght@400;700&display=swap");
 *,
 ::before,
 ::after {
@@ -43,7 +44,7 @@
   :root {
     --fs-h1: 5rem;
     --fs-txt: 1.1rem;
-    --fs-nav: 1rem;
+    --fs-nav: 0.9rem;
   }
 }
 /* GENERAL STYLES */
@@ -89,4 +90,16 @@ body {
 .iconify:hover {
   transform: scale(1.2);
   color: #58effb;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1300px) {
+  section {
+    margin: 3rem;
+  }
+  .iconify {
+    height: 35px;
+    width: 35px;
+  }
 }
