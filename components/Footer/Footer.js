@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 import classes from "./Footer.module.css";
 const Footer = () => {
   return (
@@ -10,17 +11,39 @@ const Footer = () => {
             <h4 className="h4__txt">
               Site map <span className="span__accentFirst">.</span>
             </h4>
-            <Link smooth={true} to="home" className={classes.footer__link}>
+            <ScrollLink
+              smooth={true}
+              to="home"
+              className={classes.footer__link}
+            >
               Home
-            </Link>
-            <Link smooth={true} to="about" className={classes.footer__link}>
+            </ScrollLink>
+            <ScrollLink
+              smooth={true}
+              to="about"
+              className={classes.footer__link}
+            >
               About us
-            </Link>
-            <Link smooth={true} to="offer" className={classes.footer__link}>
+            </ScrollLink>
+            <ScrollLink
+              smooth={true}
+              to="offer"
+              className={classes.footer__link}
+            >
               Our offer
-            </Link>
-            <Link smooth={true} to="contact" className={classes.footer__link}>
+            </ScrollLink>
+            <ScrollLink
+              smooth={true}
+              to="contact"
+              className={classes.footer__link}
+            >
               Contact us
+            </ScrollLink>
+            <Link className={classes.footer__link} href="/attribution">
+              Attribution
+            </Link>
+            <Link className={classes.footer__link} href="/privacy-policy">
+              Privacy policy
             </Link>
           </div>
           <div className={classes.footer__links_container}>
@@ -36,6 +59,7 @@ const Footer = () => {
               <span className={classes.footer__link}>comptrends@gmail.com</span>
             </>
           </div>
+          {/* SOCIAL MEDIA */}
           <div className={classes.footer__links_container}>
             <h4 className="h4__txt">
               Social media <span className="span__accentFirst">.</span>
@@ -49,6 +73,25 @@ const Footer = () => {
             <a className={classes.footer__link} href="https://facebook.com">
               Twitter
             </a>
+          </div>
+          {/* CREDITS */}
+          <div className={classes.footer__links_container}>
+            <h4 className="h4__txt">
+              Credits <span className="span__accentFirst">.</span>
+            </h4>
+            <Link className={classes.footer__link} href="/attribution">
+              Attribution
+            </Link>
+          </div>
+          {/* PRIVACY */}
+          {/* CREDITS */}
+          <div className={classes.footer__links_container}>
+            <h4 className="h4__txt">
+              Privacy <span className="span__accentFirst">.</span>
+            </h4>
+            <Link className={classes.footer__link} href="/privacy-policy">
+              Privacy policy
+            </Link>
           </div>
         </div>
       </footer>

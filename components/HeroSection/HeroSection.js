@@ -8,7 +8,7 @@ import HeroAnimation from "../HeroAnimation/HeroAnimation";
 
 const Home = () => {
   return (
-    <section id="home" className={classes.hero__section}>
+    <section className={classes.hero__section}>
       <div className={classes.hero__container}>
         <div className={classes.hero__txt_container}>
           <motion.div

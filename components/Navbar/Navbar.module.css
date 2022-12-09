@@ -124,6 +124,7 @@
   font-size: var(--fs-nav);
   color: var(--clr-dark);
   z-index: 5;
+  text-decoration: none;
 }
 .link__container:hover .nav__link {
   color: var(--clr-accentFirst);
@@ -149,6 +150,7 @@
   .nav__open {
     /* show links */
     clip-path: circle(150% at 50% 0);
+    z-index: 800;
   }
 }
 /* DONT SHOW ON DISPLAY MORE THEN 800 PX */

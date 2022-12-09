@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleNavigation } from "../../State/navSlice";
 import classes from "./Navbar.module.css";
@@ -12,22 +12,18 @@ export default function Navbar() {
   const displayAnimation = useSelector(
     (state) => state.animation.displayAnimation
   );
-
+  function closeNav() {
+    dispatch(toggleNavigation(isNavOpen));
+  }
   return (
-    <header>
+    <header id="home">
       <motion.nav
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 3, delay: 2 }}
+        transition={{ duration: 1, delay: 4 }}
         className={classes.nav}
       >
-        <Link
-          to="home"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          className={classes.logo}
-        >
+        <Link href="/#home" scroll={false} className={classes.logo}>
           <img src="/logo.svg" alt="comptrends logo"></img>
         </Link>
 
@@ -148,13 +144,10 @@ export default function Navbar() {
               ></motion.div>
 
               <Link
-                onClick={() => dispatch(toggleNavigation(isNavOpen))}
-                to="home"
+                onClick={closeNav}
+                href="/#home"
+                scroll={false}
                 className={classes.nav__link}
-                activeClass={classes.nav__link && classes.selected}
-                spy={true}
-                smooth={true}
-                offset={-130}
               >
                 Home
               </Link>
@@ -185,12 +178,10 @@ export default function Navbar() {
               ></motion.div>
 
               <Link
-                onClick={() => dispatch(toggleNavigation(isNavOpen))}
-                to="about"
+                onClick={closeNav}
+                href="/#about"
                 className={classes.nav__link}
-                spy={true}
-                smooth={true}
-                offset={-130}
+                scroll={false}
               >
                 About us
               </Link>
@@ -221,12 +212,10 @@ export default function Navbar() {
               ></motion.div>
 
               <Link
-                onClick={() => dispatch(toggleNavigation(isNavOpen))}
-                to="offer"
+                onClick={closeNav}
+                href="/#offer"
                 className={classes.nav__link}
-                spy={true}
-                smooth={true}
-                offset={-130}
+                scroll={false}
               >
                 Our offer
               </Link>
@@ -257,12 +246,10 @@ export default function Navbar() {
               ></motion.div>
 
               <Link
-                onClick={() => dispatch(toggleNavigation(isNavOpen))}
-                to="contact"
+                onClick={closeNav}
+                href="/#contact"
+                scroll={false}
                 className={classes.nav__link}
-                spy={true}
-                smooth={true}
-                offset={-130}
               >
                 Contact
               </Link>
