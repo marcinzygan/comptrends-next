@@ -58,13 +58,14 @@ section {
   min-height: 90vh;
   color: var(--clr-white);
   background-color: var(--clr-dark);
-  margin: 2rem;
+  padding: 2rem;
   z-index: 2;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 body {
   background-color: var(--clr-dark);
+  height: 100vh;
 }
 .btn {
   display: flex;

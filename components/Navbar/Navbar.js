@@ -22,7 +22,7 @@ export default function Navbar() {
     console.log("router obj", router);
   }
   return (
-    <header id="home">
+    <header>
       <motion.nav
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

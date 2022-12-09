@@ -9,8 +9,7 @@ export default function SideNavbar() {
           to="home"
           activeClass={classes.side__link_selected}
           spy={true}
-          smooth={true}
-          offset={-100}
+          offset={-150}
           className={classes.side__link}
         ></Link>
         <span className={classes.side__label}>Home</span>
@@ -21,7 +20,6 @@ export default function SideNavbar() {
           to="about"
           activeClass={classes.side__link_selected}
           spy={true}
-          smooth={true}
           offset={-30}
           className={classes.side__link}
         ></Link>
@@ -33,7 +31,6 @@ export default function SideNavbar() {
           to="offer"
           activeClass={classes.side__link_selected}
           spy={true}
-          smooth={true}
           offset={-30}
           className={classes.side__link}
         ></Link>
@@ -45,7 +42,6 @@ export default function SideNavbar() {
           to="contact"
           activeClass={classes.side__link_selected}
           spy={true}
-          smooth={true}
           offset={-30}
           className={classes.side__link}
         ></Link>

@@ -1,44 +1,43 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll";
+
 import Link from "next/link";
 import classes from "./Footer.module.css";
+import HeroAnimation from "../HeroAnimation/HeroAnimation";
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
-    <section>
-      <footer>
+    <section className={classes.section__footer}>
+      <footer className={classes.footer}>
         <div className={classes.footer__container}>
           <div className={classes.footer__links_container}>
             <h4 className="h4__txt">
               Site map <span className="span__accentFirst">.</span>
             </h4>
-            <ScrollLink
-              smooth={true}
-              to="home"
-              className={classes.footer__link}
-            >
+            <Link href="/#home" className={classes.footer__link} scroll={false}>
               Home
-            </ScrollLink>
-            <ScrollLink
-              smooth={true}
-              to="about"
+            </Link>
+            <Link
+              href="/#about"
               className={classes.footer__link}
+              scroll={false}
             >
               About us
-            </ScrollLink>
-            <ScrollLink
-              smooth={true}
-              to="offer"
+            </Link>
+            <Link
+              href="/#offer"
               className={classes.footer__link}
+              scroll={false}
             >
               Our offer
-            </ScrollLink>
-            <ScrollLink
-              smooth={true}
-              to="contact"
+            </Link>
+            <Link
+              href="/#contact"
               className={classes.footer__link}
+              scroll={false}
             >
               Contact us
-            </ScrollLink>
+            </Link>
             <Link className={classes.footer__link} href="/attribution">
               Attribution
             </Link>
@@ -93,6 +92,13 @@ const Footer = () => {
               Privacy policy
             </Link>
           </div>
+        </div>
+        <div className={classes.footer__animation}>
+          <HeroAnimation />
+        </div>
+        <div className={classes.footer__copyright_container}>
+          <p className={classes.copyrights}> {year}</p>
+          <p className={classes.copyrights}> Copyright © comptrends.eu</p>
         </div>
       </footer>
     </section>
