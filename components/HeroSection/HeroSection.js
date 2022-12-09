@@ -14,7 +14,7 @@ const Home = () => {
             animate={{ x: 0 }}
             transition={{ duration: 2 }}
           >
-            <h1 className={classes.hero__txt}>
+            <h1 className="h1__txt">
               <span className="span__accentSecond">Data</span> solution for your
               business .
             </h1>
@@ -90,7 +90,7 @@ const Home = () => {
             Learn more
           </Link>
         </motion.div>
-        <div className={classes.social__icons}>
+        <div className="social__icons">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

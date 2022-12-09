@@ -36,12 +36,17 @@ export default function Form() {
   }
 
   return (
-    <form ref={form} onSubmit={sendEmail} className={classes.form__container}>
-      <label className="form__label">Name</label>
+    <form
+      id="form"
+      ref={form}
+      onSubmit={sendEmail}
+      className={classes.form__container}
+    >
+      <label className={classes.form__label}>Name</label>
       <input
         type="text"
         name="user_name"
-        className="form__input"
+        className={classes.form__input}
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
@@ -55,7 +60,7 @@ export default function Form() {
       <input
         type="submit"
         value="Send"
-        className={"hero__btn" + " " + classes.form__btn}
+        className={"btn" + " " + classes.form__btn}
       />
       <div
         className={
