@@ -81,7 +81,7 @@ const Home = () => {
           <div className={classes.hero__background}></div>
         </motion.div>
         <motion.div
-          className={classes.hero__btn}
+          className={"btn"}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 3 }}

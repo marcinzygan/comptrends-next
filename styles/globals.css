@@ -63,6 +63,26 @@ section {
 body {
   background-color: var(--clr-dark);
 }
+.btn {
+  display: flex;
+  height: 35px;
+  width: 140px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: var(--ff-text);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-txt);
+  border: 1px solid var(--clr-accentFirst);
+  margin: 0 auto;
+  margin-top: 3rem;
+
+  transition: 0.5s ease-in-out;
+  font-size: 0.8rem;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
 .paragraph__txt {
   font-family: var(--ff-text);
   font-size: var(--fs-txt);
