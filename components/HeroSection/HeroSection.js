@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 const { motion } = require("framer-motion");
 import classes from "./HeroSection.module.css";
 
@@ -47,7 +47,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 3 }}
         >
-          <Link to="about" spy={true} smooth={true}>
+          <Link href="/#about" scroll={false}>
             Learn more
           </Link>
         </motion.div>

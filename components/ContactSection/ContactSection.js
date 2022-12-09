@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 import classes from "./ContactSection.module.css";
 // Import Components
 import Form from "../Form/Form";
@@ -17,13 +17,13 @@ const ContactSection = () => {
         </h1>
         <div className={classes.contact__buttons_container}>
           <div className={"btn " + " " + classes.contact__btn_one}>
-            <Link to="form" spy={true} smooth={true}>
+            <Link href="/#form" scroll={false}>
               Contact us
             </Link>
           </div>
           <p className={classes.contact__or}>or</p>
           <div className={"btn" + " " + classes.contact__btn_two}>
-            <Link to="offer" spy={true} smooth={true}>
+            <Link href="/#offer" scroll={false}>
               Learn more
             </Link>
           </div>

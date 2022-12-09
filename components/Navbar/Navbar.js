@@ -3,17 +3,23 @@ import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleNavigation } from "../../State/navSlice";
 import classes from "./Navbar.module.css";
+import { useRouter } from "next/router";
 const { motion } = require("framer-motion");
 
 export default function Navbar() {
   const dispatch = useDispatch();
+  const router = useRouter();
   // STATE imports
   const isNavOpen = useSelector((state) => state.nav.isNavOpen);
   const displayAnimation = useSelector(
     (state) => state.animation.displayAnimation
   );
+
   function closeNav() {
     dispatch(toggleNavigation(isNavOpen));
+    // router.replace("/#home", undefined, { shallow: true });
+
+    console.log("router obj", router);
   }
   return (
     <header id="home">

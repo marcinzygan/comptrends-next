@@ -12,7 +12,7 @@
   --fw-bold: 700;
   --ff-text: "Maven Pro", sans-serif;
   --ff-headings: "Lexend", sans-serif;
-  --clr-white: rgb(255, 255, 255);
+  --clr-white: #ffffff;
   --clr-dark: #1d1d1b;
   --clr-accentFirst: #ff11c7;
   --clr-accentSecond: #58effb;
@@ -79,9 +79,12 @@ body {
   border: 1px solid var(--clr-accentFirst);
   margin: 0 auto;
   margin-top: 3rem;
-
   transition: 0.5s ease-in-out;
   font-size: 0.8rem;
+}
+.btn > a {
+  text-decoration: none;
+  color: var(--clr-white);
 }
 .btn:hover {
   transform: scale(1.2);

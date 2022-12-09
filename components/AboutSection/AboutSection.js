@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import { Link } from "react-scroll";
+import Link from "next/link";
 import classes from "./AboutSection.module.css";
 
 const AboutSection = () => {
@@ -26,7 +26,7 @@ const AboutSection = () => {
         </div>
         <img src="/about.png" alt="robot showing graph on coputer screen"></img>
         <div className={"btn"}>
-          <Link to="offer" spy={true} smooth={true}>
+          <Link href="/#offer" scroll={false}>
             Our offer
           </Link>
         </div>
