@@ -4,6 +4,8 @@ import { Link } from "react-scroll";
 const { motion } = require("framer-motion");
 import classes from "./HeroSection.module.css";
 
+import HeroAnimation from "../HeroAnimation/HeroAnimation";
+
 const Home = () => {
   return (
     <section id="home" className={classes.hero__section}>
@@ -36,48 +38,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 3, delay: 2 }}
         >
-          <div className={classes.hero__animation}>
-            <motion.div
-              animate={{ backgroundColor: ["#ffff", "#58effb", "#ffff"] }}
-              transition={{
-                duration: 2,
-                delay: 1,
-                repeat: Infinity,
-                repeatDelay: 3,
-              }}
-              className={classes.hero__dot}
-            ></motion.div>
-            <motion.div
-              animate={{ backgroundColor: ["#ffff", "#58effb", "#ffff"] }}
-              transition={{
-                duration: 2,
-                delay: 2,
-                repeat: Infinity,
-                repeatDelay: 3,
-              }}
-              className={classes.hero__dot}
-            ></motion.div>
-            <motion.div
-              animate={{ backgroundColor: ["#ffff", "#58effb", "#ffff"] }}
-              transition={{
-                duration: 2,
-                delay: 3,
-                repeat: Infinity,
-                repeatDelay: 3,
-              }}
-              className={classes.hero__dot}
-            ></motion.div>
-            <motion.div
-              animate={{ backgroundColor: ["#ffff", "#ff11c7", "#ffff"] }}
-              transition={{
-                duration: 2,
-                delay: 4,
-                repeat: Infinity,
-                repeatDelay: 3,
-              }}
-              className={classes.hero__line}
-            ></motion.div>
-          </div>
+          <HeroAnimation />
           <div className={classes.hero__background}></div>
         </motion.div>
         <motion.div
