@@ -8,7 +8,7 @@ const OfferSection = () => {
     <section id="offer">
       <SectionHeading heading={"Offer"} />
       <div className={classes.offer__info_container}>
-        <h3 className="heading__h3">
+        <h3 className="h3__txt">
           <span className="span__accentFirst">Help</span> to promote your
           business
         </h3>
@@ -49,7 +49,7 @@ const OfferSection = () => {
         </motion.div>
       </div>
       <div className={classes.offer__info_container}>
-        <h3 className="heading__h3">
+        <h3 className="h3__txt">
           Bring your <span className="span__accentSecond">data</span> to live
         </h3>
         <p className="paragraph__txt">

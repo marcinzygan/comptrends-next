@@ -9,7 +9,7 @@ const AboutSection = () => {
       <SectionHeading heading={"Who we are ?"} />
       <div className={classes.about__container}>
         <div className={"about__txt_container"}>
-          <h3 className={"heading__h3"}>
+          <h3 className={"h3__txt"}>
             <span className={"span__accentSecond"}>Data</span> engineering and
             web development company
           </h3>
