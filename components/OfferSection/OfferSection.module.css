@@ -1,0 +1,27 @@
+/* OFFER SECTION */
+.offer__animation_container {
+  position: relative;
+  height: 300px;
+}
+.circle__animation {
+  /* height: 300px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.circle__one {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle__two {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
