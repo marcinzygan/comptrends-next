@@ -8,6 +8,7 @@ import SideNavbar from "../components/SideNavbar/SideNavbar.js";
 import HeroSection from "../components/HeroSection/HeroSection.js";
 import AboutSection from "../components/AboutSection/AboutSection.js";
 import OfferSection from "../components/OfferSection/OfferSection.js";
+import ContactSection from "../components/ContactSection/ContactSection.js";
 // STATE Actions
 import { checkScreenSize } from "../State/hideAnimationSlice";
 
@@ -29,6 +30,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <OfferSection />
+      <ContactSection />
     </div>
   );
 }

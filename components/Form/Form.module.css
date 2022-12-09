@@ -1,0 +1,36 @@
+/* FORM COMPONENT */
+.form__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.form__label {
+  font-family: var(--ff-headings);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-txt);
+  padding: 1rem 0 0 0;
+}
+.form__input {
+  background: none;
+  border: none;
+  resize: none;
+  border-bottom: 2px solid var(--clr-white);
+}
+.email__message {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  border: 1px solid var(--clr-grayLight);
+  background-color: white;
+}
+.email__message_visible {
+  display: block;
+}
+.form__btn {
+  background: none;
+  color: var(--clr-white);
+}
