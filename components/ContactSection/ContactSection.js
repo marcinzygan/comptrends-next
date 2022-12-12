@@ -50,8 +50,8 @@ const ContactSection = () => {
             Email : comptrends@gmail.com
           </p>
         </div>
+        <Form />
       </div>
-      <Form />
     </section>
   );
 };

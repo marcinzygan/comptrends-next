@@ -50,12 +50,12 @@ const Footer = () => {
               Contact info <span className="span__accentFirst">.</span>
             </h4>
             <>
-              <p className={classes.footer__link}>Phone :</p>
-              <span className={classes.footer__link}>+48 009 009 234</span>
+              <p className={classes.footer__link}>Phone : +48 009 009 234</p>
             </>
             <>
-              <p className={classes.footer__link}>Email :</p>
-              <span className={classes.footer__link}>comptrends@gmail.com</span>
+              <p className={classes.footer__link}>
+                Email : comptrends@gmail.com
+              </p>
             </>
           </div>
           {/* SOCIAL MEDIA */}
@@ -93,7 +93,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className={classes.footer__animation}></div>
+
         <div className={classes.footer__copyright_container}>
           <p className={classes.copyrights}> {year}</p>
           <p className={classes.copyrights}> Copyright © comptrends.eu</p>
