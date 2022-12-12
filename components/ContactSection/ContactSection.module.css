@@ -21,7 +21,17 @@
   font-size: var(--fs-h2);
 }
 .contact__img {
-  margin: 3rem 0 3rem 0;
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.contact__container {
+  margin-top: 4rem;
+}
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .contact__details_txt {
   font-family: var(--ff-text);
@@ -32,3 +42,15 @@
 .social__icons_contact {
   margin: 1rem 0 1rem 0;
 }
+
+@media (min-width: 800px) {
+  .social__icons_contact {
+    flex-direction: row;
+  }
+}
+/* @media (min-width: 1300px) {
+  .contact__container {
+    display: flex;
+    justify-content: space-between;
+  }
+} */

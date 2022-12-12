@@ -6,6 +6,7 @@
   max-width: 500px;
   margin: 0 auto;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .form__label {
   font-family: var(--ff-headings);
@@ -61,3 +62,9 @@
   margin-top: 0.5rem;
   margin-right: 0.5rem;
 }
+/* @media (min-width: 1300px) {
+  .form__container {
+    margin: 0;
+    width: 100%;
+  }
+} */

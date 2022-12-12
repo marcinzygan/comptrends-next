@@ -43,15 +43,13 @@ const ContactSection = () => {
             <Icon icon="entypo-social:linkedin-with-circle" />
             <Icon icon="entypo-social:twitter-with-circle" />
           </div>
-          <p className={classes.contact__details_txt}>
-            Phone : +48 001 001 001
-          </p>
-          <p className={classes.contact__details_txt}>
-            Email : comptrends@gmail.com
-          </p>
         </div>
-        <Form />
       </div>
+      <Form />
+      <p className={classes.contact__details_txt}>Phone : +48 001 001 001</p>
+      <p className={classes.contact__details_txt}>
+        Email : comptrends@gmail.com
+      </p>
     </section>
   );
 };

@@ -1,6 +1,6 @@
 /* FOOTER */
 .section__footer {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   min-height: 20vh;
   position: relative;
   border-top: 1px solid var(--clr-accentSecond);
