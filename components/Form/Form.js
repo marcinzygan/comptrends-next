@@ -7,7 +7,7 @@ export default function Form() {
   const [emailSent, setEmailSent] = React.useState(false);
   const form = React.useRef();
   const [name, setName] = React.useState("");
-
+  const [lastName, setLastName] = React.useState("");
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -42,7 +42,9 @@ export default function Form() {
       onSubmit={sendEmail}
       className={classes.form__container}
     >
-      <label className={classes.form__label}>Name</label>
+      <label className={classes.form__label}>
+        First Name <span className="span__accentFirst">.</span>
+      </label>
       <input
         type="text"
         name="user_name"
@@ -50,9 +52,23 @@ export default function Form() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <label className={classes.form__label}>Email</label>
+      <label className={classes.form__label}>
+        Last Name <span className="span__accentFirst">.</span>
+      </label>
+      <input
+        type="text"
+        name="user_lastName"
+        className={classes.form__input}
+        value={lastName}
+        onChange={(e) => setLastName(e.target.value)}
+      />
+      <label className={classes.form__label}>
+        Email <span className="span__accentFirst">.</span>
+      </label>
       <input type="email" name="user_email" className={classes.form__input} />
-      <label className={classes.form__label}>Message</label>
+      <label className={classes.form__label}>
+        Message <span className="span__accentFirst">.</span>
+      </label>
       <textarea
         name="message"
         className={classes.form__input + " " + classes.form__textarea}
@@ -70,22 +86,26 @@ export default function Form() {
         }
       >
         <Icon
+          className={classes.close__message_icon}
           icon="ep:close-bold"
-          className="modal__icon email__alert-icon"
           onClick={closeEmailAlert}
         />
-        <span className="span span__alert-top">{"<h2>"}</span>
-        <h2 className="email__alert-heading">
+
+        <h2 className={classes.email__alert_heading}>
           Thank You for your message
-          <span className="email__alert-name">
+          <span className={classes.email__alert_name}>
             {" " + name.charAt(0).toUpperCase() + name.slice(1)}
+          </span>{" "}
+          <span className={classes.email__alert_name}>
+            {" " + lastName.charAt(0).toUpperCase() + lastName.slice(1)}
           </span>
         </h2>
-        <span className="span span__alert-bottom">{"</h2>"}</span>
-        <p className="email__alert-message">
-          I will get back to You as soon as possible . <br></br>
+
+        <p className={classes.email__alert_message}>
+          We will get back to You as soon as possible . <br></br>
           Have a nice day !
         </p>
+        <p className={classes.email__alert_message}>Comptrends.eu</p>
       </div>
     </form>
   );

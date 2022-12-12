@@ -93,9 +93,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className={classes.footer__animation}>
-          <HeroAnimation />
-        </div>
+        <div className={classes.footer__animation}></div>
         <div className={classes.footer__copyright_container}>
           <p className={classes.copyrights}> {year}</p>
           <p className={classes.copyrights}> Copyright © comptrends.eu</p>
