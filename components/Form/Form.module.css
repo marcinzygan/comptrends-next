@@ -15,13 +15,22 @@
   padding: 2rem 0 0 0;
 }
 .form__input {
-  padding: 0.25rem 0 0 0;
+  /* height: 40px; */
+
+  padding: 0.25rem 0 0.25rem 0;
   background: none;
   border: none;
   resize: none;
   border-bottom: 1px solid var(--clr-white);
   color: var(--clr-white);
   font-family: var(--ff-text);
+}
+.form__input:hover {
+  outline: 1px solid var(--clr-accentFirst);
+  border-bottom: none;
+}
+.form__textarea {
+  height: 100px;
 }
 .email__message {
   position: absolute;

@@ -161,9 +161,10 @@ body {
 
 /* 600px */
 @media (min-width: 600px) {
-  /* .h1__txt {
-    padding-right: 5rem;
-  } */
+  .iconify {
+    height: 35px;
+    width: 35px;
+  }
 }
 
 /* 800px */

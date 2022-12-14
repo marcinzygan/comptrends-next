@@ -33,6 +33,8 @@ export default function Form() {
 
   function closeEmailAlert() {
     setEmailSent((prevState) => !prevState);
+    setLastName("");
+    setName("");
   }
 
   return (
