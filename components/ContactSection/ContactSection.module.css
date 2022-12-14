@@ -52,9 +52,34 @@
     flex-direction: row;
   }
 }
-/* @media (min-width: 1300px) {
+@media (min-width: 1300px) {
   .contact__container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
   }
-} */
+  .contact__details {
+    display: grid;
+  }
+  .contact__img {
+    grid-row: 1/2;
+    grid-column: 1/4;
+
+    width: 100%;
+  }
+  .contact__details_txt {
+    grid-row: 2/3;
+    grid-column: 5/7;
+  }
+
+  .contact__details_email {
+    grid-row: 3/4;
+    width: 100%;
+  }
+  .contact__details_phone {
+    margin-top: 2rem;
+  }
+  .social__icons_contact {
+    grid-column: 5/7;
+    grid-row: 4/5;
+  }
+}
