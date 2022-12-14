@@ -39,3 +39,9 @@
   padding-top: 0.25rem;
   font-family: var(--ff-headings);
 }
+
+@media (min-width: 1300px) {
+  .section__heading_container {
+    margin-bottom: 10rem;
+  }
+}

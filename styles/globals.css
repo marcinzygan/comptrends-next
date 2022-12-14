@@ -99,6 +99,7 @@ body {
 .btn > a {
   text-decoration: none;
   color: var(--clr-white);
+  padding: 1rem 2rem 1rem 2rem;
 }
 .btn:hover {
   transform: scale(1.2);
@@ -198,14 +199,14 @@ body {
 
 /* 1600px */
 @media (min-width: 1600px) {
-  .h1__txt {
+  /* .h1__txt {
     padding-right: 3rem;
-  }
+  } */
 }
 
 /* 1800px */
 @media (min-width: 1800px) {
-  .h1__txt {
+  /* .h1__txt {
     padding-right: 10rem;
-  }
+  } */
 }

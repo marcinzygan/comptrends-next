@@ -4,6 +4,11 @@
 }
 .contact__img_container {
   height: 100vh;
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contact__btn_one {
   border-color: #58effb;
@@ -56,9 +61,20 @@
   }
 }
 @media (min-width: 1300px) {
+  .contact__buttons_container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  .h1__contact {
+    max-width: 900px;
+    margin: 0 auto;
+  }
   .contact__container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    align-items: start;
   }
   .contact__details {
     display: grid;

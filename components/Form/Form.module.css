@@ -76,6 +76,7 @@
 /* 1300px */
 @media (min-width: 1300px) {
   .form__container {
+    margin-top: 0;
     grid-row: 1/2;
     grid-column: 5/7;
     width: 100%;

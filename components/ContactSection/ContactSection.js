@@ -5,15 +5,16 @@ import classes from "./ContactSection.module.css";
 // Import Components
 import Form from "../Form/Form";
 import SectionHeading from "../SectionHeading/SectionHeading";
-
+import DotAnimation from "../DotAnimation/DotAnimation";
 const ContactSection = () => {
   return (
     <section id="contact">
       <SectionHeading
         heading={"Contact"}
-        subHeading={"Use any method below to get in touch."}
+        subHeading={"Use any method below to get in touch "}
       />
       <div className={classes.contact__img_container}>
+        <DotAnimation />
         <h1 className={"h1__txt" + " " + classes.h1__contact}>
           Ready to <span className="span__accentSecond">start</span> working
           with us ?
