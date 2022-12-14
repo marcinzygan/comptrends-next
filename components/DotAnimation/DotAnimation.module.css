@@ -1,0 +1,39 @@
+.dot__main {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--clr-accentSecond);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.dot__1 {
+  top: 20%;
+  left: 10%;
+}
+.dot__2 {
+  top: 30%;
+  left: 80%;
+}
+.dot__3 {
+  top: 45%;
+  left: 40%;
+}
+.dot__4 {
+  top: 90%;
+  left: 60%;
+}
+.dot__5 {
+  top: 10%;
+  left: 45%;
+  background-color: var(--clr-accentFirst);
+}
+.dot__6 {
+  top: 65%;
+  left: 70%;
+  background-color: var(--clr-accentFirst);
+}
+.dot__7 {
+  top: 75%;
+  left: 10%;
+}
