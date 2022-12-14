@@ -67,7 +67,10 @@ const SectionHeading = (props) => {
           }}
         ></motion.div>
       </div>
-      <h2 className={classes.section__heading_txt}>{props.heading}</h2>
+      <div className={classes.section__heading_wrapper}>
+        <h2 className={classes.section__heading_txt}>{props.heading}</h2>
+        <p className={classes.section__sub_heading}>{props.subHeading}</p>
+      </div>
     </div>
   );
 };

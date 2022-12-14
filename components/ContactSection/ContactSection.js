@@ -9,7 +9,10 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 const ContactSection = () => {
   return (
     <section id="contact">
-      <SectionHeading heading={"Contact"} />
+      <SectionHeading
+        heading={"Contact"}
+        subHeading={"Use any method below to get in touch."}
+      />
       <div className={classes.contact__img_container}>
         <h1 className={"h1__txt" + " " + classes.h1__contact}>
           Ready to <span className="span__accentSecond">start</span> working

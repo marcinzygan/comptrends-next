@@ -2,6 +2,9 @@
 .h1__contact {
   text-align: center;
 }
+.contact__img_container {
+  height: 100vh;
+}
 .contact__btn_one {
   border-color: #58effb;
   margin: 0 auto;

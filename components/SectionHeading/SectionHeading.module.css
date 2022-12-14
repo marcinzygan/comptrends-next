@@ -28,8 +28,14 @@
 .section__line_5 {
   background-color: var(--clr-white);
 }
-.section__heading_txt {
+.section__heading_wrapper {
   padding-left: 1rem;
+}
+.section__heading_txt {
   font-size: var(--fs-h2);
+  font-family: var(--ff-headings);
+}
+.section__sub_heading {
+  padding-top: 0.25rem;
   font-family: var(--ff-headings);
 }
