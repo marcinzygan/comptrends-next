@@ -40,12 +40,12 @@ const ContactSection = () => {
             variants={{
               visible: {
                 opacity: 1,
-                x: 0,
+
                 transition: { duration: 1, delay: 0.5 },
               },
-              hidden: { opacity: 0, x: -100 },
+              hidden: { opacity: 0 },
             }}
-            className={"btn " + " " + classes.contact__btn_one}
+            className={"btn" + " " + classes.contact__btn_one}
           >
             <Link href="/#form" scroll={false}>
               Contact us
@@ -74,10 +74,10 @@ const ContactSection = () => {
             variants={{
               visible: {
                 opacity: 1,
-                x: 0,
+
                 transition: { duration: 1, delay: 0.5 },
               },
-              hidden: { opacity: 0, x: -100 },
+              hidden: { opacity: 0 },
             }}
             className={"btn" + " " + classes.contact__btn_two}
           >

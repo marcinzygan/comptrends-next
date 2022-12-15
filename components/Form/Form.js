@@ -93,7 +93,7 @@ export default function Form() {
           onClick={closeEmailAlert}
         />
 
-        <h2 className={classes.email__alert_heading}>
+        <h3 className={classes.email__alert_heading}>
           Thank You for your message
           <span className={classes.email__alert_name}>
             {" " + name.charAt(0).toUpperCase() + name.slice(1)}
@@ -101,7 +101,7 @@ export default function Form() {
           <span className={classes.email__alert_name}>
             {" " + lastName.charAt(0).toUpperCase() + lastName.slice(1)}
           </span>
-        </h2>
+        </h3>
 
         <p className={classes.email__alert_message}>
           We will get back to You as soon as possible . <br></br>

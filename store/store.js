@@ -1,12 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import navSliceReducer from "../State/navSlice";
 import constructionReducer from "../State/constructionSlice";
-import animationReducer from "../State/hideAnimationSlice";
+import screenSizeReducer from "../State/checkScreenSizeSlice";
 
 export const store = configureStore({
   reducer: {
     nav: navSliceReducer,
     construction: constructionReducer,
-    animation: animationReducer,
+    screen: screenSizeReducer,
   },
 });

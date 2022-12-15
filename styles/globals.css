@@ -48,8 +48,8 @@
 @media (min-width: 1300px) {
   :root {
     --fs-h1: 4rem;
-    --fs-h2: 3rem;
-    --fs-h3: 2rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.6rem;
     --fs-h4: 1.3rem;
     --fs-txt: 1rem;
     --fs-link: 0.8rem;
@@ -69,7 +69,7 @@
   :root {
     --fs-h1: 5.5rem;
     --fs-h2: 4rem;
-    --fs-h3: 3rem;
+    --fs-h3: 1.8rem;
     --fs-h4: 1.6rem;
     --fs-txt: 1.1rem;
     --fs-link: 0.9rem;

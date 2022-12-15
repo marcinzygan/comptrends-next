@@ -1,21 +1,23 @@
-import React, { useState } from "react";
-import { Icon } from "@iconify/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import classes from "./OfferSection.module.css";
+import { useDispatch, useSelector } from "react-redux";
+import { showHelp, showData } from "../../State/checkScreenSizeSlice";
 const { motion, AnimatePresence } = require("framer-motion");
 
 const OfferSection = () => {
-  const [isHelpSHown, setIsHelpSHown] = useState(false);
-  function showHelp() {
-    setIsDataSHown(false);
-    setIsHelpSHown((prevState) => !prevState);
+  const dispatch = useDispatch();
+  const isDataSHown = useSelector((state) => state.screen.isDataShown);
+  const isHelpSHown = useSelector((state) => state.screen.isHelpShown);
+
+  function toggleHelp() {
+    dispatch(showHelp());
+    console.log(isHelpSHown);
   }
-  const [isDataSHown, setIsDataSHown] = useState(false);
-  function showData() {
-    setIsHelpSHown(false);
-    setIsDataSHown((prevState) => !prevState);
+
+  function toggleData() {
+    dispatch(showData());
   }
-  console.log(isHelpSHown);
+
   return (
     <section id="offer">
       <SectionHeading
@@ -52,22 +54,24 @@ const OfferSection = () => {
             sapien diam arcu
           </p>
           <div
-            onClick={showHelp}
+            onClick={toggleHelp}
             className={classes.offer__btn + " " + classes.help__btn}
           >
-            {isHelpSHown ? "Read less" : "Read more"}
-            <Icon icon="ph:magnifying-glass-light" />
+            {isHelpSHown ? "Read Less" : "Read More"}
+            {/* <Icon
+             icon="ph:magnifying-glass-light"
+              className={classes.icon__read}
+            />  */}
           </div>
-          <p
-            className={
-              isHelpSHown
-                ? "paragraph__txt" +
-                  " " +
-                  classes.offer__more_txt +
-                  " " +
-                  classes.help__visible
-                : "paragraph__txt" + " " + classes.offer__more_txt
-            }
+          <motion.p
+            initial={isHelpSHown ? { opacity: 0 } : { opacity: 1 }}
+            animate={isHelpSHown ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            exit={{
+              opacity: 0,
+              transition: { duration: 1, ease: "easeOut" },
+            }}
+            className={"paragraph__txt" + " " + classes.offer__more_txt}
           >
             Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
             dui. Elit risus morbi etiam diam tempus. Lorem ipsum dolor sit amet
@@ -75,8 +79,15 @@ const OfferSection = () => {
             diam tempus. Lorem ipsum dolor sit amet consectetur. Vitae odio quis
             sit velit dui. Elit risus morbi etiam diam tempus. Lorem ipsum dolor
             sit amet consectetur. Vitae odio quis sit velit dui. Elit risus
-            morbi etiam diam tempus.
-          </p>
+            morbi etiam diam tempus. diam tempus. Lorem ipsum dolor sit amet
+            consectetur. Vitae odio quis sit velit dui. Elit risus morbi etiam
+            diam tempus. Lorem ipsum dolor sit amet consectetur. Vitae odio quis
+            sit velit dui. Elit risus morbi etiam diam tempus. diam tempus.
+            Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
+            dui. Elit risus morbi etiam diam tempus. Lorem ipsum dolor sit amet
+            consectetur. Vitae odio quis sit velit dui. Elit risus morbi etiam
+            diam tempus.
+          </motion.p>
 
           <motion.img
             src="/about.png"
@@ -104,10 +115,10 @@ const OfferSection = () => {
                 alt="comp"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 2, ease: "easeOut" }}
+                transition={{ duration: 1, ease: "easeOut" }}
                 exit={{
                   opacity: 0,
-                  transition: { duration: 2, ease: "easeOut" },
+                  transition: { duration: 1, ease: "easeOut" },
                 }}
                 className={
                   isHelpSHown
@@ -151,7 +162,7 @@ const OfferSection = () => {
                 transition={{ duration: 2, ease: "easeOut" }}
                 exit={{
                   opacity: 0,
-                  transition: { duration: 2, ease: "easeOut" },
+                  transition: { duration: 1, ease: "easeOut" },
                 }}
                 className={
                   isDataSHown
@@ -189,32 +200,33 @@ const OfferSection = () => {
             gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
             sapien diam arcu
           </p>
-          <div onClick={showData} className={classes.offer__btn}>
-            {/* {isDataSHown ? "Read less" : "Read more"} */}
-            <Icon icon="ph:magnifying-glass-light" />
+          <div onClick={toggleData} className={classes.offer__btn}>
+            {isDataSHown ? "Read Less" : "Read More"}
+            {/* <Icon
+              icon="ph:magnifying-glass-light"
+              className={classes.icon__read}
+            /> */}
           </div>
+
           <motion.p
-            initial={{ oacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 2 }}
-            className={
-              isDataSHown
-                ? "paragraph__txt" +
-                  " " +
-                  classes.offer__more_txt +
-                  " " +
-                  classes.data__visible
-                : "paragraph__txt" + " " + classes.offer__more_txt
-            }
+            initial={isDataSHown ? { opacity: 1 } : { opacity: 1 }}
+            animate={isDataSHown ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            exit={{
+              opacity: 0,
+              transition: { duration: 1, ease: "easeOut" },
+            }}
+            className={"paragraph__txt" + " " + classes.offer__more_txt}
           >
             Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
             dui. Elit risus morbi etiam diam tempus.Lorem ipsum dolor sit amet
             consectetur. Vitae odio quis sit velit dui.<br></br> Elit risus
             morbi etiam diam tempus. Lorem ipsum dolor sit amet consectetur.
             Vitae odio quis sit velit dui. Elit risus morbi etiam diam
-            tempus.Lorem ipsum dolor sit amet consectetur.<br></br> Vitae odio
-            quis sit velit dui. Elit risus morbi etiam diam tempus. Lorem ipsum
-            dolor sit amet consectetur. Vitae odio quis sit velit dui. <br></br>
+            tempus.Lorem ipsum dolor sit amet consectetur.
+            <br></br> Vitae odio quis sit velit dui. Elit risus morbi etiam diam
+            tempus. Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit
+            velit dui. <br></br>
             Elit risus morbi etiam diam tempus.
           </motion.p>
 

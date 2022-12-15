@@ -13,7 +13,7 @@ export default function Navbar() {
   // STATE imports
   const isNavOpen = useSelector((state) => state.nav.isNavOpen);
   const displayAnimation = useSelector(
-    (state) => state.animation.displayAnimation
+    (state) => state.screen.displayAnimation
   );
 
   function closeNav() {

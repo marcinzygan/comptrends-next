@@ -12,7 +12,7 @@ import ContactSection from "../components/ContactSection/ContactSection.js";
 import Footer from "../components/Footer/Footer.js";
 
 // STATE Actions
-import { checkScreenSize } from "../State/hideAnimationSlice";
+import { checkScreenSize } from "../State/checkScreenSizeSlice";
 
 export default function Home() {
   const dispatch = useDispatch();

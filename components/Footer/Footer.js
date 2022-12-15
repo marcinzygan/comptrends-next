@@ -2,7 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 import classes from "./Footer.module.css";
-import HeroAnimation from "../HeroAnimation/HeroAnimation";
+
 const Footer = () => {
   const year = new Date().getFullYear();
 
