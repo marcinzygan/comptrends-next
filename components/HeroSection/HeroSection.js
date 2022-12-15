@@ -17,8 +17,19 @@ const Home = () => {
             transition={{ duration: 2 }}
           >
             <h1 className="h1__txt">
-              <span className="span__accentSecond">Data</span> solution for your
-              business .
+              <motion.span
+                animate={{ Color: ["#ffff", "#58effb", "#ffff"] }}
+                transition={{
+                  duration: 2,
+                  delay: 2,
+                  repeat: Infinity,
+                  repeatDelay: 3,
+                }}
+                className="span__accentSecond"
+              >
+                Data
+              </motion.span>{" "}
+              solution for your business .
             </h1>
             <motion.p
               initial={{ opacity: 0 }}

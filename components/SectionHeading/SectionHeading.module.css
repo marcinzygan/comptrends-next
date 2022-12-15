@@ -32,12 +32,13 @@
   padding-left: 1rem;
 }
 .section__heading_txt {
-  font-size: var(--fs-h2);
+  font-size: var(--fs-h3);
   font-family: var(--ff-headings);
 }
 .section__sub_heading {
   padding-top: 0.25rem;
   font-family: var(--ff-headings);
+  font-size: var(--fs-txt);
 }
 
 @media (min-width: 1300px) {
