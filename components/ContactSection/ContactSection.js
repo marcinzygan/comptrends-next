@@ -1,7 +1,7 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 import classes from "./ContactSection.module.css";
+const { motion } = require("framer-motion");
 // Import Components
 import Form from "../Form/Form";
 import SectionHeading from "../SectionHeading/SectionHeading";
@@ -15,22 +15,76 @@ const ContactSection = () => {
       />
       <div className={classes.contact__img_container}>
         <DotAnimation />
-        <h1 className={"h1__txt" + " " + classes.h1__contact}>
+        <motion.h1
+          initial={"hidden"}
+          whileInView={"visible"}
+          viewport={{ once: false }}
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 1, delay: 0.5 },
+            },
+            hidden: { opacity: 0, y: -100 },
+          }}
+          className={"h1__txt" + " " + classes.h1__contact}
+        >
           Ready to <span className="span__accentSecond">start</span> working
           with us ?
-        </h1>
+        </motion.h1>
         <div className={classes.contact__buttons_container}>
-          <div className={"btn " + " " + classes.contact__btn_one}>
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            viewport={{ once: true }}
+            variants={{
+              visible: {
+                opacity: 1,
+                x: 0,
+                transition: { duration: 1, delay: 0.5 },
+              },
+              hidden: { opacity: 0, x: -100 },
+            }}
+            className={"btn " + " " + classes.contact__btn_one}
+          >
             <Link href="/#form" scroll={false}>
               Contact us
             </Link>
-          </div>
-          <p className={classes.contact__or}>or</p>
-          <div className={"btn" + " " + classes.contact__btn_two}>
+          </motion.div>
+          <motion.p
+            initial={"hidden"}
+            whileInView={"visible"}
+            viewport={{ once: true }}
+            variants={{
+              visible: {
+                opacity: 1,
+
+                transition: { duration: 1, delay: 2 },
+              },
+              hidden: { opacity: 0 },
+            }}
+            className={classes.contact__or}
+          >
+            or
+          </motion.p>
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            viewport={{ once: true }}
+            variants={{
+              visible: {
+                opacity: 1,
+                x: 0,
+                transition: { duration: 1, delay: 0.5 },
+              },
+              hidden: { opacity: 0, x: -100 },
+            }}
+            className={"btn" + " " + classes.contact__btn_two}
+          >
             <Link href="/#offer" scroll={false}>
               Learn more
             </Link>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className={classes.contact__container}>

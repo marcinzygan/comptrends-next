@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   padding-bottom: var(--nav-gap);
+  z-index: -1000;
 }
 .side__link {
   cursor: pointer;

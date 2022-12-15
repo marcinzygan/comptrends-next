@@ -3,7 +3,7 @@
   text-align: center;
 }
 .contact__img_container {
-  height: 100vh;
+  min-height: 50vh;
   position: relative;
   background-image: url(/comptrends2.jpg);
 
@@ -57,6 +57,9 @@
 }
 
 @media (min-width: 800px) {
+  .contact__img_container {
+    min-height: 90vh;
+  }
   .social__icons_contact {
     flex-direction: row;
   }

@@ -36,10 +36,10 @@ const OfferSection = () => {
             variants={{
               visible: {
                 opacity: 1,
-                x: 0,
+                y: 0,
                 transition: { duration: 1, delay: 0.5 },
               },
-              hidden: { opacity: 0, x: -100 },
+              hidden: { opacity: 0, y: -100 },
             }}
           >
             <span className="span__accentFirst">Help</span> to promote your
@@ -88,10 +88,10 @@ const OfferSection = () => {
             variants={{
               visible: {
                 opacity: 1,
-                y: 0,
-                transition: { duration: 2, delay: 0.5 },
+
+                transition: { duration: 4, delay: 0.5 },
               },
-              hidden: { opacity: 0, y: -100 },
+              hidden: { opacity: 0 },
             }}
           ></motion.img>
         </div>
@@ -141,15 +141,26 @@ const OfferSection = () => {
               className={classes.circle__two}
             ></img>
           </motion.div>
-          <img
-            src="/about.png"
-            alt="comp"
-            className={
-              isDataSHown
-                ? classes.offer__img + " " + classes.offer__img_data
-                : classes.offer__img
-            }
-          ></img>
+          <AnimatePresence>
+            {isDataSHown && (
+              <motion.img
+                src="/about.png"
+                alt="comp"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 2, ease: "easeOut" }}
+                exit={{
+                  opacity: 0,
+                  transition: { duration: 2, ease: "easeOut" },
+                }}
+                className={
+                  isDataSHown
+                    ? classes.offer__img + " " + classes.offer__img_data
+                    : classes.offer__img
+                }
+              ></motion.img>
+            )}
+          </AnimatePresence>
         </div>
         <div
           className={
@@ -164,10 +175,10 @@ const OfferSection = () => {
             variants={{
               visible: {
                 opacity: 1,
-                x: 0,
+                y: 0,
                 transition: { duration: 1, delay: 0.5 },
               },
-              hidden: { opacity: 0, x: +100 },
+              hidden: { opacity: 0, y: -100 },
             }}
           >
             Bring your <span className="span__accentSecond">data</span> to live
@@ -179,10 +190,13 @@ const OfferSection = () => {
             sapien diam arcu
           </p>
           <div onClick={showData} className={classes.offer__btn}>
-            {isDataSHown ? "Read less" : "Read more"}
+            {/* {isDataSHown ? "Read less" : "Read more"} */}
             <Icon icon="ph:magnifying-glass-light" />
           </div>
-          <p
+          <motion.p
+            initial={{ oacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
             className={
               isDataSHown
                 ? "paragraph__txt" +
@@ -202,7 +216,8 @@ const OfferSection = () => {
             quis sit velit dui. Elit risus morbi etiam diam tempus. Lorem ipsum
             dolor sit amet consectetur. Vitae odio quis sit velit dui. <br></br>
             Elit risus morbi etiam diam tempus.
-          </p>
+          </motion.p>
+
           <motion.img
             src="/about.png"
             alt="comp"
@@ -213,10 +228,10 @@ const OfferSection = () => {
             variants={{
               visible: {
                 opacity: 1,
-                y: 0,
-                transition: { duration: 2, delay: 0.5 },
+
+                transition: { duration: 4, delay: 0.5 },
               },
-              hidden: { opacity: 0, y: -100 },
+              hidden: { opacity: 0 },
             }}
           ></motion.img>
         </div>
