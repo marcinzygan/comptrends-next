@@ -103,7 +103,7 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    transition: all 1.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background-color: var(--clr-white);
     opacity: 0.999;
     z-index: 100;
