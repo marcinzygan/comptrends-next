@@ -12,20 +12,22 @@ const AboutSection = () => {
       />
       <div className={classes.about__container}>
         <div className={classes.about__txt_container}>
-          <h2 className={"h2__txt" + " " + classes.about__h2}>
-            <span className={"span__accentSecond"}>Data</span> engineering and
-            web development company
-          </h2>
-          <p className={"paragraph__txt"}>
-            Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-            dui. Elit risus morbi etiam diam tempus. Vitae amet metus ante
-            gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
-            sapien diam arcu
-          </p>
-          <p className={"paragraph__txt"}>
-            Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-            dui. Elit risus morbi etiam diam tempus.{" "}
-          </p>
+          <div>
+            <h2 className={"h2__txt" + " " + classes.about__h2}>
+              <span className={"span__accentSecond"}>Data</span> engineering and
+              web development company
+            </h2>
+            <p className={"paragraph__txt"}>
+              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
+              dui. Elit risus morbi etiam diam tempus. Vitae amet metus ante
+              gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
+              sapien diam arcu
+            </p>
+            <p className={"paragraph__txt"}>
+              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
+              dui. Elit risus morbi etiam diam tempus.{" "}
+            </p>
+          </div>
           <img
             src="/about.png"
             alt="robot showing graph on coputer screen"
@@ -33,7 +35,11 @@ const AboutSection = () => {
           ></img>
         </div>
 
-        <div className={classes.about__txt_container}>
+        <div
+          className={
+            classes.about__txt_container + " " + classes.about__txt_container2
+          }
+        >
           <div>
             <p className={"paragraph__txt"}>
               Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit

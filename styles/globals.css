@@ -223,10 +223,10 @@ body {
 /* 1600px */
 @media (min-width: 1600px) {
   .h2__txt {
-    max-width: 700px;
+    max-width: 750px;
   }
   .paragraph__txt {
-    max-width: 700px;
+    max-width: 750px;
   }
 }
 
