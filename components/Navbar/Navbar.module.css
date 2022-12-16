@@ -107,12 +107,14 @@
     background-color: var(--clr-white);
     opacity: 0.999;
     z-index: 100;
-    clip-path: circle(0% at 50% 50%);
+    /* clip-path: circle(0% at 50% 50%); */
+    transform: translateX(+150%);
   }
 
   .nav__open {
     /* show links */
-    clip-path: circle(150% at 50% 0);
+    /* clip-path: circle(150% at 50% 0); */
+    transform: translateX(0%);
     z-index: 800;
   }
 }
@@ -156,8 +158,8 @@
 /* 600px */
 @media (min-width: 600px) {
   .nav__button_circle {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
   }
 }
 /* 800px */
