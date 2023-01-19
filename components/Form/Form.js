@@ -45,7 +45,7 @@ export default function Form() {
       className={classes.form__container}
     >
       <label className={classes.form__label}>
-        First Name <span className="span__accentFirst">.</span>
+        Imię <span className="span__accentFirst">.</span>
       </label>
       <input
         type="text"
@@ -55,7 +55,7 @@ export default function Form() {
         onChange={(e) => setName(e.target.value)}
       />
       <label className={classes.form__label}>
-        Last Name <span className="span__accentFirst">.</span>
+        Nazwisko <span className="span__accentFirst">.</span>
       </label>
       <input
         type="text"
@@ -69,7 +69,7 @@ export default function Form() {
       </label>
       <input type="email" name="user_email" className={classes.form__input} />
       <label className={classes.form__label}>
-        Message <span className="span__accentFirst">.</span>
+        Wiadomość <span className="span__accentFirst">.</span>
       </label>
       <textarea
         name="message"
@@ -94,7 +94,7 @@ export default function Form() {
         />
 
         <h3 className={classes.email__alert_heading}>
-          Thank You for your message
+          Dziękujemy za Twoją Wiadomość
           <span className={classes.email__alert_name}>
             {" " + name.charAt(0).toUpperCase() + name.slice(1)}
           </span>{" "}
@@ -104,8 +104,8 @@ export default function Form() {
         </h3>
 
         <p className={classes.email__alert_message}>
-          We will get back to You as soon as possible . <br></br>
-          Have a nice day !
+          Postaramy się odpowiedzieć najszybciej jak to możliwe. <br></br>
+          Miłego Dnia !
         </p>
         <p className={classes.email__alert_message}>Comptrends.eu</p>
       </div>
