@@ -54,7 +54,7 @@ const Footer = () => {
             </>
             <>
               <p className={classes.footer__link}>
-                Email : comptrends@gmail.com
+                Email : comptrends.eu@gmail.com
               </p>
             </>
           </div>

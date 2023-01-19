@@ -17,6 +17,7 @@ const Home = () => {
             transition={{ duration: 2 }}
           >
             <h1 className="h1__txt">
+              Dostarczamy<br></br>
               <motion.span
                 animate={{ Color: ["#ffff", "#58effb", "#ffff"] }}
                 transition={{
@@ -27,9 +28,9 @@ const Home = () => {
                 }}
                 className="span__accentSecond"
               >
-                Data
+                dane
               </motion.span>{" "}
-              solution for your business .
+              , dla Twojego biznesu
             </h1>
             <motion.p
               initial={{ opacity: 0 }}
@@ -37,9 +38,10 @@ const Home = () => {
               transition={{ duration: 3, delay: 2 }}
               className={classes.hero__subtxt}
             >
-              Lorem ipsum dolor sit amet consectetur. Bibendum et mauris porta
-              id sapien varius risus. Condimentum posuere habitant netus
-              pellentesque leo arcu.
+              Skorzystaj z naszych usług i zacznij rozwijać swój biznes.
+              <br></br> Dane, które Ci dostarczymy, pozwolą na lepsze planowanie
+              i prognozowanie, oraz na uniknięcie potencjalnych problemów i
+              zwiększenie efektywności działania twojego biznesu.
             </motion.p>
           </motion.div>
         </div>

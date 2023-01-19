@@ -35,11 +35,11 @@
 
 .hero__subtxt {
   display: none;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-family: var(--ff-text);
   font-size: var(--fs-txt);
   font-weight: var(--fw-regular);
-  line-height: 1.5;
+  line-height: 1.4;
   /* letter-spacing: 0.5px; */
 }
 

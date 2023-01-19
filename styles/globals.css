@@ -67,7 +67,7 @@
 /* 1800px */
 @media (min-width: 1800px) {
   :root {
-    --fs-h1: 5.5rem;
+    --fs-h1: 5.2rem;
     --fs-h2: 4rem;
     --fs-h3: 1.8rem;
     --fs-h4: 1.6rem;
@@ -135,6 +135,7 @@ body {
 .h1__txt {
   font-family: var(--ff-headings);
   font-size: var(--fs-h1);
+  line-height: 1.1;
 }
 .h2__txt {
   font-family: var(--ff-headings);
