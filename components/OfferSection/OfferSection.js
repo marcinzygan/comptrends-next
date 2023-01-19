@@ -21,8 +21,8 @@ const OfferSection = () => {
   return (
     <section id="offer">
       <SectionHeading
-        heading={"Our offer"}
-        subHeading={"We will deliver the quality "}
+        heading={"Nasza Oferta"}
+        subHeading={"Comptrends dla twojego Biznesu "}
       />
       <div className={classes.offer__wrapper}>
         <div
@@ -45,8 +45,8 @@ const OfferSection = () => {
                 hidden: { opacity: 0, y: -100 },
               }}
             >
-              <span className="span__accentFirst">Help</span> to promote your
-              business
+              <span className="span__accentFirst">Pomagamy</span> w zdobywaniu
+              przewagi konkurencyjnej.
             </motion.h2>
             <p className="paragraph__txt">
               Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
@@ -195,8 +195,9 @@ const OfferSection = () => {
                 hidden: { opacity: 0, y: -100 },
               }}
             >
-              Bring your <span className="span__accentSecond">data</span> to
-              live
+              Dostarczamy
+              <span className="span__accentSecond"> dane </span>, które pozwolą
+              Ci na sukces.
             </motion.h2>
             <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
               Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
