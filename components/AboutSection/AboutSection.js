@@ -7,25 +7,29 @@ const AboutSection = () => {
   return (
     <section id="about">
       <SectionHeading
-        heading={"Who we are ?"}
-        subHeading={"Data is our passion "}
+        heading={"Kim Jesteśmy ?"}
+        subHeading={"Dane to nasza pasja "}
       />
       <div className={classes.about__container}>
         <div className={classes.about__txt_container}>
           <div>
             <h2 className={"h2__txt" + " " + classes.about__h2}>
-              <span className={"span__accentSecond"}>Data</span> engineering and
-              web development company
+              Jesteśmy liderem w dostarczaniu aktualnych
+              <span className={"span__accentSecond"}> danych </span>
+              rynkowych.
             </h2>
             <p className={"paragraph__txt"}>
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus. Vitae amet metus ante
-              gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
-              sapien diam arcu
+              Nasza firma specjalizuje się w dostarczaniu firmom dokładnych i
+              aktualnych danych dotyczących ich konkurencji. Dzięki naszej
+              usłudze zbierania danych będziesz mieć codzienny dostęp do ważnych
+              informacji, w tym cen, zmian cen i więcej.
             </p>
             <p className={"paragraph__txt"}>
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus.{" "}
+              Dzięki śledzeniu najnowszych trendów i zmian w twojej branży,
+              będziesz mógł podejmować mądrzejsze decyzje i pozostać
+              konkurencyjnym.<br></br>
+              Comptrends ułatwia śledzenie konkurencji, dzięki czemu możesz
+              skupić się na rozwijaniu swojego biznesu.
             </p>
           </div>
           <img
@@ -42,14 +46,15 @@ const AboutSection = () => {
         >
           <div>
             <p className={"paragraph__txt"}>
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus. Vitae amet metus ante
-              gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
-              sapien diam arcu
+              Nasze dane są zbierane z różnych źródeł, co zapewnia ich
+              dokładność i niezawodność. Dzięki Comptrends będziesz mieć
+              informacje potrzebne do podejmowania informowanych decyzji
+              dotyczących swoich produktów i cen.
             </p>
             <p className={"paragraph__txt"}>
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus.{" "}
+              Zapisz się na naszą usługę już dziś i zacznij zyskiwać przewagę
+              konkurencyjną, której potrzebujesz, aby odnieść sukces. Dzięki
+              Comptrends zawsze będziesz jeden krok przed konkurencją.
             </p>
           </div>
           <img
@@ -61,7 +66,7 @@ const AboutSection = () => {
 
         <div className={"btn" + " " + classes.about__btn}>
           <Link href="/#offer" scroll={false}>
-            Our offer
+            Oferta
           </Link>
         </div>
       </div>
