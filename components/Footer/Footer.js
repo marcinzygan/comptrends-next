@@ -12,42 +12,42 @@ const Footer = () => {
         <div className={classes.footer__container}>
           <div className={classes.footer__links_container}>
             <h4 className="h4__txt">
-              Site map <span className="span__accentFirst">.</span>
+              Mapa strony <span className="span__accentFirst">.</span>
             </h4>
             <Link href="/#home" className={classes.footer__link} scroll={false}>
-              Home
+              Strona Główna
             </Link>
             <Link
               href="/#about"
               className={classes.footer__link}
               scroll={false}
             >
-              About us
+              Kim Jesteśmy ?
             </Link>
             <Link
               href="/#offer"
               className={classes.footer__link}
               scroll={false}
             >
-              Our offer
+              Nasza Oferta
             </Link>
             <Link
               href="/#contact"
               className={classes.footer__link}
               scroll={false}
             >
-              Contact us
+              Kontakt
             </Link>
             <Link className={classes.footer__link} href="/attribution">
-              Attribution
+              Prawa autorskie
             </Link>
             <Link className={classes.footer__link} href="/privacy-policy">
-              Privacy policy
+              Polityka prywatności
             </Link>
           </div>
           <div className={classes.footer__links_container}>
             <h4 className="h4__txt">
-              Contact info <span className="span__accentFirst">.</span>
+              Kontakt <span className="span__accentFirst">.</span>
             </h4>
             <>
               <p className={classes.footer__link}>Phone : +48 009 009 234</p>
@@ -76,27 +76,27 @@ const Footer = () => {
           {/* CREDITS */}
           <div className={classes.footer__links_container}>
             <h4 className="h4__txt">
-              Credits <span className="span__accentFirst">.</span>
+              Podziękowania <span className="span__accentFirst">.</span>
             </h4>
             <Link className={classes.footer__link} href="/attribution">
-              Attribution
+              Prawa autorskie
             </Link>
           </div>
           {/* PRIVACY */}
           {/* CREDITS */}
           <div className={classes.footer__links_container}>
             <h4 className="h4__txt">
-              Privacy <span className="span__accentFirst">.</span>
+              Prywatność <span className="span__accentFirst">.</span>
             </h4>
             <Link className={classes.footer__link} href="/privacy-policy">
-              Privacy policy
+              Polityka prywatności
             </Link>
           </div>
         </div>
 
         <div className={classes.footer__copyright_container}>
           <p className={classes.copyrights}> {year}</p>
-          <p className={classes.copyrights}> Copyright © comptrends.eu</p>
+          <p className={classes.copyrights}> Prawa autorskie © comptrends.eu</p>
         </div>
       </footer>
     </section>
