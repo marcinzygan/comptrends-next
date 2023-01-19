@@ -76,7 +76,7 @@ export default function Navbar() {
                 scroll={false}
                 className={classes.nav__link}
               >
-                Home
+                <Icon icon="ri:home-2-line" />
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -110,7 +110,7 @@ export default function Navbar() {
                 className={classes.nav__link}
                 scroll={false}
               >
-                About us
+                O Nas
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -144,7 +144,7 @@ export default function Navbar() {
                 className={classes.nav__link}
                 scroll={false}
               >
-                Our offer
+                Oferta
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -178,7 +178,7 @@ export default function Navbar() {
                 scroll={false}
                 className={classes.nav__link}
               >
-                Contact
+                Kontakt
               </Link>
               <motion.div
                 className={classes.nav__circle}

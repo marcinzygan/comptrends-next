@@ -61,7 +61,7 @@ const Home = () => {
           transition={{ duration: 1, delay: 3 }}
         >
           <Link href="/#about" scroll={false}>
-            Learn more
+            Więcej
           </Link>
         </motion.div>
         <div className="social__icons">
