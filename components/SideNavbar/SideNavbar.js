@@ -12,7 +12,7 @@ export default function SideNavbar() {
           offset={-150}
           className={classes.side__link}
         ></Link>
-        <span className={classes.side__label}>Dom</span>
+        <span className={classes.side__label}>Strona główna</span>
       </div>
 
       <div className={classes.side__item}>

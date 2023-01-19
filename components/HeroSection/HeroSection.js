@@ -31,18 +31,30 @@ const Home = () => {
                 dane
               </motion.span>{" "}
               , dla Twojego biznesu
-            </h1>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 3, delay: 2 }}
-              className={classes.hero__subtxt}
-            >
-              Skorzystaj z naszych usług i zacznij rozwijać swój biznes.
-              <br></br> Dane, które Ci dostarczymy, pozwolą na lepsze planowanie
-              i prognozowanie, oraz na uniknięcie potencjalnych problemów i
-              zwiększenie efektywności działania twojego biznesu.
-            </motion.p>
+            </h1>{" "}
+            <div>
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 3, delay: 2 }}
+                className={classes.hero__subtxt}
+              >
+                Skorzystaj z naszych usług i zacznij rozwijać swój biznes.
+                <br></br> Dane, które Ci dostarczymy, pozwolą na lepsze
+                planowanie i prognozowanie, oraz na uniknięcie potencjalnych
+                problemów i zwiększenie efektywności działania twojego biznesu.
+              </motion.p>
+              <motion.div
+                className={"btn"}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 3 }}
+              >
+                <Link href="/#about" scroll={false}>
+                  Więcej
+                </Link>
+              </motion.div>
+            </div>
           </motion.div>
         </div>
         <motion.div
@@ -54,16 +66,7 @@ const Home = () => {
           <HeroAnimation />
           <div className={classes.hero__background}></div>
         </motion.div>
-        <motion.div
-          className={"btn"}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 3 }}
-        >
-          <Link href="/#about" scroll={false}>
-            Więcej
-          </Link>
-        </motion.div>
+
         <div className="social__icons">
           <motion.div
             initial={{ opacity: 0 }}

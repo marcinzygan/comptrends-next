@@ -76,7 +76,7 @@ export default function Navbar() {
                 scroll={false}
                 className={classes.nav__link}
               >
-                <Icon icon="ri:home-2-line" />
+                Strona <br></br>Główna
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -110,7 +110,7 @@ export default function Navbar() {
                 className={classes.nav__link}
                 scroll={false}
               >
-                O Nas
+                Kim<br></br>Jesteśmy ?
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -144,7 +144,7 @@ export default function Navbar() {
                 className={classes.nav__link}
                 scroll={false}
               >
-                Oferta
+                Nasza<br></br>Oferta
               </Link>
               <motion.div
                 className={classes.nav__circle}

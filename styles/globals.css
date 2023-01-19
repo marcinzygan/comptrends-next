@@ -199,6 +199,7 @@ body {
     grid-column: 2/3;
     margin: 0;
     align-self: start;
+    margin-top: 3rem;
   }
   .social__icons {
     grid-column: 1/2;
