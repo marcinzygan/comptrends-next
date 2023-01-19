@@ -77,7 +77,7 @@ export default function Form() {
       />
       <input
         type="submit"
-        value="Send"
+        value="Wyślij"
         className={"btn" + " " + classes.form__btn}
       />
       <div
