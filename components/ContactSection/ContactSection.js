@@ -10,8 +10,8 @@ const ContactSection = () => {
   return (
     <section id="contact">
       <SectionHeading
-        heading={"Contact"}
-        subHeading={"Use any method below to get in touch "}
+        heading={"Kontakt"}
+        subHeading={"Użyj dowolnej metody kontaktu znajdującej się poniżej "}
       />
       <div className={classes.contact__img_container}>
         <DotAnimation />
@@ -29,8 +29,9 @@ const ContactSection = () => {
           }}
           className={"h1__txt" + " " + classes.h1__contact}
         >
-          Ready to <span className="span__accentSecond">start</span> working
-          with us ?
+          Gotów <span className="span__accentSecond">rozpocząć</span> z nami
+          <br></br>
+          współpracę ?
         </motion.h1>
         <div className={classes.contact__buttons_container}>
           <motion.div
@@ -48,7 +49,7 @@ const ContactSection = () => {
             className={"btn" + " " + classes.contact__btn_one}
           >
             <Link href="/#form" scroll={false}>
-              Contact us
+              Kontakt
             </Link>
           </motion.div>
           <motion.p
@@ -65,7 +66,7 @@ const ContactSection = () => {
             }}
             className={classes.contact__or}
           >
-            or
+            lub
           </motion.p>
           <motion.div
             initial={"hidden"}
@@ -82,7 +83,7 @@ const ContactSection = () => {
             className={"btn" + " " + classes.contact__btn_two}
           >
             <Link href="/#offer" scroll={false}>
-              Learn more
+              Oferta
             </Link>
           </motion.div>
         </div>
@@ -104,7 +105,7 @@ const ContactSection = () => {
             classes.contact__details_txt + " " + classes.contact__details_phone
           }
         >
-          Phone<span className="span__accentFirst"> : </span> +48 001 001 001
+          Telefon<span className="span__accentFirst"> : </span> +48 001 001 001
         </p>
         <p
           className={
