@@ -49,16 +49,18 @@ const OfferSection = () => {
               przewagi konkurencyjnej.
             </motion.h2>
             <p className="paragraph__txt">
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus. Vitae amet metus ante
-              gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
-              sapien diam arcu
+              Oferujemy szeroki zakres usług, które pomogą Ci w zdobywaniu
+              przewagi konkurencyjnej na rynku. Nasze dane pochodzą z różnych
+              źródeł, co zapewnia ich dokładność i aktualność. Dzięki nim,
+              będziesz mieć wgląd w ceny produktów konkurencji, zmiany cen, a
+              także trendy rynkowe. To pozwoli Ci na odpowiednie dostosowanie
+              swojej oferty, cen oraz strategii marketingowej.
             </p>
             <div
               onClick={toggleHelp}
               className={classes.offer__btn + " " + classes.help__btn}
             >
-              {isHelpSHown ? "Read Less" : "Read More"}
+              {isHelpSHown ? "Mniej" : "Wjęcej"}
               {/* <Icon
              icon="ph:magnifying-glass-light"
               className={classes.icon__read}
@@ -74,20 +76,14 @@ const OfferSection = () => {
               }}
               className={"paragraph__txt" + " " + classes.offer__more_txt}
             >
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus. Lorem ipsum dolor sit
-              amet consectetur. Vitae odio quis sit velit dui. Elit risus morbi
-              etiam diam tempus. Lorem ipsum dolor sit amet consectetur. Vitae
-              odio quis sit velit dui. Elit risus morbi etiam diam tempus. Lorem
-              ipsum dolor sit amet consectetur. Vitae odio quis sit velit dui.
-              Elit risus morbi etiam diam tempus. diam tempus. Lorem ipsum dolor
-              sit amet consectetur. Vitae odio quis sit velit dui. Elit risus
-              morbi etiam diam tempus. Lorem ipsum dolor sit amet consectetur.
-              Vitae odio quis sit velit dui. Elit risus morbi etiam diam tempus.
-              diam tempus. Lorem ipsum dolor sit amet consectetur. Vitae odio
-              quis sit velit dui. Elit risus morbi etiam diam tempus. Lorem
-              ipsum dolor sit amet consectetur. Vitae odio quis sit velit dui.
-              Elit risus morbi etiam diam tempus.
+              Nasze usługi pozwolą Ci również na monitorowanie działań
+              konkurencji, co pozwoli Ci na reagowanie na ich działania, a także
+              na wykorzystywanie ich słabych punktów. Dzięki temu, będziesz mógł
+              skuteczniej walczyć o klientów i rozwijać swój biznes. <br></br>
+              <br></br>
+              Dane, które Ci dostarczymy, pozwolą Ci również na lepsze
+              planowanie i prognozowanie, co pozwoli na uniknięcie potencjalnych
+              problemów i zwiększenie efektywności działania twojego biznesu.
             </motion.p>{" "}
           </div>
 
@@ -200,13 +196,13 @@ const OfferSection = () => {
               Ci na sukces.
             </motion.h2>
             <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus. Vitae amet metus ante
-              gravida nisi eget imperdiet. Consectetur ut lorem mattis felis
-              sapien diam arcu
+              Nasze dane pozwolą Ci na lepsze rozumienie rynku, a tym samym na
+              odpowiednie dostosowanie oferty, cen oraz strategii marketingowej.
+              Dzięki nim będziesz miał wgląd w ceny produktów konkurencji,
+              zmiany cen, a także trendy rynkowe.
             </p>
             <div onClick={toggleData} className={classes.offer__btn}>
-              {isDataSHown ? "Read Less" : "Read More"}
+              {isDataSHown ? "Mniej" : "Wjęcej"}
               {/* <Icon
               icon="ph:magnifying-glass-light"
               className={classes.icon__read}
@@ -223,16 +219,9 @@ const OfferSection = () => {
               }}
               className={"paragraph__txt" + " " + classes.offer__more_txt}
             >
-              Lorem ipsum dolor sit amet consectetur. Vitae odio quis sit velit
-              dui. Elit risus morbi etiam diam tempus.Lorem ipsum dolor sit amet
-              consectetur. Vitae odio quis sit velit dui.<br></br> Elit risus
-              morbi etiam diam tempus. Lorem ipsum dolor sit amet consectetur.
-              Vitae odio quis sit velit dui. Elit risus morbi etiam diam
-              tempus.Lorem ipsum dolor sit amet consectetur.
-              <br></br> Vitae odio quis sit velit dui. Elit risus morbi etiam
-              diam tempus. Lorem ipsum dolor sit amet consectetur. Vitae odio
-              quis sit velit dui. <br></br>
-              Elit risus morbi etiam diam tempus.
+              W Comptrends, pomagamy Ci w osiągnięciu sukcesu poprzez
+              dostarczanie Ci niezbędnych danych i usług, które pozwolą Ci na
+              podejmowanie skutecznych decyzji i rozwój twojego biznesu.
             </motion.p>
           </div>
           <motion.img
