@@ -12,7 +12,7 @@ export default function SideNavbar() {
           offset={-150}
           className={classes.side__link}
         ></Link>
-        <span className={classes.side__label}>Home</span>
+        <span className={classes.side__label}>Dom</span>
       </div>
 
       <div className={classes.side__item}>
@@ -23,7 +23,7 @@ export default function SideNavbar() {
           offset={-30}
           className={classes.side__link}
         ></Link>
-        <span className={classes.side__label}>About us</span>
+        <span className={classes.side__label}>O nas</span>
       </div>
 
       <div className={classes.side__item}>
@@ -34,7 +34,7 @@ export default function SideNavbar() {
           offset={-30}
           className={classes.side__link}
         ></Link>
-        <span className={classes.side__label}>Our offer</span>
+        <span className={classes.side__label}>Oferta</span>
       </div>
 
       <div className={classes.side__item}>
@@ -45,7 +45,7 @@ export default function SideNavbar() {
           offset={-30}
           className={classes.side__link}
         ></Link>
-        <span className={classes.side__label}>Contact</span>
+        <span className={classes.side__label}>Kontakt</span>
       </div>
     </aside>
   );
