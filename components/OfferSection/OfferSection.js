@@ -88,7 +88,7 @@ const OfferSection = () => {
           </div>
 
           <motion.img
-            src="/about.png"
+            src="/profit.svg"
             alt="comp"
             className={classes.offer__img_mobile}
             initial={"hidden"}
@@ -109,7 +109,7 @@ const OfferSection = () => {
           <AnimatePresence>
             {isHelpSHown && (
               <motion.img
-                src="/about.png"
+                src="/profit.svg"
                 alt="comp"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -153,7 +153,7 @@ const OfferSection = () => {
           <AnimatePresence>
             {isDataSHown && (
               <motion.img
-                src="/about.png"
+                src="/data.svg"
                 alt="comp"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -225,7 +225,7 @@ const OfferSection = () => {
             </motion.p>
           </div>
           <motion.img
-            src="/about.png"
+            src="/data.svg"
             alt="comp"
             className={classes.offer__img_mobile}
             initial={"hidden"}

@@ -58,7 +58,7 @@ const AboutSection = () => {
             </p>
           </div>
           <img
-            src="/about.png"
+            src="/datastream.svg"
             alt="robot showing graph on coputer screen"
             className={classes.about__img}
           ></img>

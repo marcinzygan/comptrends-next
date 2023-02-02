@@ -92,7 +92,7 @@ const ContactSection = () => {
         {/* <div className={classes.contact__details}> */}
         <img
           className={classes.contact__img}
-          src="/about.png"
+          src="/contact.svg"
           alt="phone email details"
         ></img>
         <div className={"social__icons" + " " + classes.social__icons_contact}>
