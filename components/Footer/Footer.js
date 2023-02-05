@@ -96,7 +96,7 @@ const Footer = () => {
 
         <div className={classes.footer__copyright_container}>
           <p className={classes.copyrights}> {year}</p>
-          <p className={classes.copyrights}> Prawa autorskie © comptrends.eu</p>
+          <p className={classes.copyrights}>© comptrends.eu</p>
         </div>
       </footer>
     </section>
