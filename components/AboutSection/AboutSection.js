@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import Link from "next/link";
 import classes from "./AboutSection.module.css";
+import { Spider } from "../RiveAnimation/RiveSpider";
 
 const AboutSection = () => {
   return (
@@ -57,11 +58,7 @@ const AboutSection = () => {
               Comptrends zawsze będziesz jeden krok przed konkurencją.
             </p>
           </div>
-          <img
-            src="/spider.png"
-            alt="robot showing graph on coputer screen"
-            className={classes.about__img}
-          ></img>
+          <Spider />
         </div>
 
         <div className={"btn" + " " + classes.about__btn}>
