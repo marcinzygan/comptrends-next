@@ -61,14 +61,14 @@ export default function Navbar() {
 
           <div className={classes.link__container}>
             <motion.li whileHover={"hover"} className={classes.nav__li}>
-              <motion.div
+              {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
                 transition={{ duration: 1 }}
                 variants={{
                   hover: { y: 50, opacity: 1, backgroundColor: "#ff11c7" },
                 }}
-              ></motion.div>
+              ></motion.div> */}
 
               <Link
                 onClick={closeNav}
@@ -76,7 +76,7 @@ export default function Navbar() {
                 scroll={false}
                 className={classes.nav__link}
               >
-                Strona <br></br>Główna
+                Strona Główna
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -95,14 +95,14 @@ export default function Navbar() {
           </div>
           <div className={classes.link__container}>
             <motion.li whileHover={"hover"} className={classes.nav__li}>
-              <motion.div
+              {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
                 transition={{ duration: 1 }}
                 variants={{
                   hover: { y: 50, opacity: 1, backgroundColor: "#ff11c7" },
                 }}
-              ></motion.div>
+              ></motion.div> */}
 
               <Link
                 onClick={closeNav}
@@ -110,7 +110,7 @@ export default function Navbar() {
                 className={classes.nav__link}
                 scroll={false}
               >
-                Kim<br></br>Jesteśmy ?
+                Kim Jesteśmy ?
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -129,14 +129,14 @@ export default function Navbar() {
           </div>
           <div className={classes.link__container}>
             <motion.li whileHover={"hover"} className={classes.nav__li}>
-              <motion.div
+              {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
                 transition={{ duration: 1 }}
                 variants={{
                   hover: { y: 50, opacity: 1, backgroundColor: "#ff11c7" },
                 }}
-              ></motion.div>
+              ></motion.div> */}
 
               <Link
                 onClick={closeNav}
@@ -144,7 +144,7 @@ export default function Navbar() {
                 className={classes.nav__link}
                 scroll={false}
               >
-                Nasza<br></br>Oferta
+                Nasza Oferta
               </Link>
               <motion.div
                 className={classes.nav__circle}
@@ -163,14 +163,14 @@ export default function Navbar() {
           </div>
           <div className={classes.link__container}>
             <motion.li whileHover={"hover"} className={classes.nav__li}>
-              <motion.div
+              {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
                 transition={{ duration: 1 }}
                 variants={{
-                  hover: { y: 50, opacity: 1, backgroundColor: "#ff11c7" },
+                  hover: { y: 80, opacity: 1, backgroundColor: "#ff11c7" },
                 }}
-              ></motion.div>
+              ></motion.div> */}
 
               <Link
                 onClick={closeNav}
