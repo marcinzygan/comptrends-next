@@ -5,6 +5,7 @@ const { motion } = require("framer-motion");
 import classes from "./HeroSection.module.css";
 
 import HeroAnimation from "../HeroAnimation/HeroAnimation";
+import { Spider } from "../RiveAnimation/RiveSpider";
 
 const Home = () => {
   return (
@@ -63,8 +64,8 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 3, delay: 2 }}
         >
-          <HeroAnimation />
-          <div className={classes.hero__background}></div>
+          <HeroAnimation /> <Spider />
+          {/* <div className={classes.hero__background}></div> */}
         </motion.div>
 
         <div className="social__icons">

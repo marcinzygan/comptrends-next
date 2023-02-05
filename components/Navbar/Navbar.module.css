@@ -1,13 +1,13 @@
 /* NAV BAR  */
 
 .logo {
-  width: 80px;
+  width: 130px;
   z-index: 100;
 
   color: var(--clr-white);
 }
 .nav {
-  padding: 1rem 3rem 3rem 0;
+  padding: 2rem 1rem 0 1rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -143,10 +143,6 @@
 
 /* 300px */
 @media (min-width: 300px) {
-  .nav {
-    /* margin-top: 2rem; */
-    padding-top: 3rem;
-  }
   .logo {
     width: 120px;
   }
@@ -171,6 +167,10 @@
 }
 @media (min-width: 1300px) {
   .nav {
-    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+  }
+  .logo {
+    width: 300px;
   }
 }

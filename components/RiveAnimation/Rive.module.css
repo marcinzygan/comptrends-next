@@ -1,3 +1,10 @@
 .spider {
-  height: 300px;
+  width: 160px;
+  height: 160px;
+}
+@media (min-width: 1300px) {
+  .spider {
+    width: 350px;
+    height: 350px;
+  }
 }
