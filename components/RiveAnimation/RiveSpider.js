@@ -1,7 +1,7 @@
 import Rive from "@rive-app/react-canvas";
 import classes from "./Rive.module.css";
 export const Spider = () => (
-  <Rive src="/spider_comp.riv" style={{ width: 300, height: 300 }} />
+  <Rive src="/spider_comp.riv" style={{ width: 260, height: 260 }} />
 );
 
 import { useRive } from "@rive-app/react-canvas";
