@@ -86,8 +86,8 @@ const OfferSection = () => {
               problemów i zwiększenie efektywności działania twojego biznesu.
             </motion.p>{" "}
           </div>
-
-          <motion.img
+          <img className={classes.offer__img_mobile} src="/profit.svg"></img>
+          {/* <motion.img
             src="/profit.svg"
             alt="comp"
             className={classes.offer__img_mobile}
@@ -102,7 +102,7 @@ const OfferSection = () => {
               },
               hidden: { opacity: 0 },
             }}
-          ></motion.img>
+          ></motion.img> */}
         </div>
 
         <div className={classes.offer__animation_container}>
@@ -224,7 +224,8 @@ const OfferSection = () => {
               podejmowanie skutecznych decyzji i rozwój twojego biznesu.
             </motion.p>
           </div>
-          <motion.img
+          <img className={classes.offer__img_mobile} src="/data.svg"></img>
+          {/* <motion.img
             src="/data.svg"
             alt="comp"
             className={classes.offer__img_mobile}
@@ -239,7 +240,7 @@ const OfferSection = () => {
               },
               hidden: { opacity: 0 },
             }}
-          ></motion.img>
+          ></motion.img> */}
         </div>
       </div>
     </section>
