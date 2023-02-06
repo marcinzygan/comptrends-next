@@ -58,7 +58,11 @@ const AboutSection = () => {
               Comptrends zawsze będziesz jeden krok przed konkurencją.
             </p>
           </div>
-          <Spider />
+          <img
+            src="/profit2.svg"
+            alt="data flowing and profit increased graph"
+            className={classes.about__img}
+          ></img>
         </div>
 
         <div className={"btn" + " " + classes.about__btn}>
