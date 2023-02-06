@@ -113,7 +113,7 @@ const ContactSection = () => {
           }
         >
           Email<span className="span__accentFirst"> : </span>
-          comptrends@gmail.com
+          comptrends.eu@gmail.com
         </p>
         {/* </div> */}
         <Form />

@@ -9,7 +9,7 @@ export default function SideNavbar() {
           to="home"
           activeClass={classes.side__link_selected}
           spy={true}
-          offset={-150}
+          offset={-195}
           className={classes.side__link}
         ></Link>
         <span className={classes.side__label}>Strona główna</span>
@@ -20,7 +20,7 @@ export default function SideNavbar() {
           to="about"
           activeClass={classes.side__link_selected}
           spy={true}
-          offset={-30}
+          offset={-120}
           className={classes.side__link}
         ></Link>
         <span className={classes.side__label}>O nas</span>
@@ -31,7 +31,7 @@ export default function SideNavbar() {
           to="offer"
           activeClass={classes.side__link_selected}
           spy={true}
-          offset={-30}
+          offset={-120}
           className={classes.side__link}
         ></Link>
         <span className={classes.side__label}>Oferta</span>
@@ -42,7 +42,7 @@ export default function SideNavbar() {
           to="contact"
           activeClass={classes.side__link_selected}
           spy={true}
-          offset={-30}
+          offset={-120}
           className={classes.side__link}
         ></Link>
         <span className={classes.side__label}>Kontakt</span>

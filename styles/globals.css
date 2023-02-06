@@ -228,6 +228,9 @@ body {
     height: 35px;
     width: 35px;
   }
+  .h2__txt {
+    min-height: 300px;
+  }
 }
 
 /* 1600px */
