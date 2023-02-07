@@ -2,6 +2,7 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import classes from "./OfferSection.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { showHelp, showData } from "../../State/checkScreenSizeSlice";
+import { Icon } from "@iconify/react";
 const { motion, AnimatePresence } = require("framer-motion");
 
 const OfferSection = () => {
@@ -60,11 +61,8 @@ const OfferSection = () => {
               onClick={toggleHelp}
               className={classes.offer__btn + " " + classes.help__btn}
             >
-              {isHelpSHown ? "Mniej" : "Wjęcej"}
-              {/* <Icon
-             icon="ph:magnifying-glass-light"
-              className={classes.icon__read}
-            />  */}
+              {isHelpSHown ? "Czytaj Mniej" : "Czytaj Wjęcej"}
+              <Icon icon="ph:book-open-light" className={classes.icon__read} />
             </div>
             <motion.p
               initial={isHelpSHown ? { opacity: 0 } : { opacity: 1 }}
@@ -202,11 +200,8 @@ const OfferSection = () => {
               zmiany cen, a także trendy rynkowe.
             </p>
             <div onClick={toggleData} className={classes.offer__btn}>
-              {isDataSHown ? "Mniej" : "Wjęcej"}
-              {/* <Icon
-              icon="ph:magnifying-glass-light"
-              className={classes.icon__read}
-            /> */}
+              {isDataSHown ? "Czytaj Mniej" : "Czytaj Wjęcej"}
+              <Icon icon="ph:book-open-light" className={classes.icon__read} />
             </div>
 
             <motion.p

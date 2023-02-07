@@ -54,7 +54,7 @@
   max-width: 350px;
   display: block;
   margin: auto;
-  padding: 0 1rem 0 1rem;
+  padding: 5rem 1rem;
 }
 .offer__btn {
   display: none;
@@ -94,7 +94,10 @@
     cursor: pointer;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
     width: 200px;
     /* display: flex;
     align-items: center;

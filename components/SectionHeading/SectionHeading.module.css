@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 .section__animation {
   display: flex;
@@ -40,9 +40,9 @@
   font-family: var(--ff-headings);
   font-size: var(--fs-txt);
 }
-
+/* 
 @media (min-width: 1300px) {
   .section__heading_container {
     margin-bottom: 10rem;
   }
-}
+} */
