@@ -64,8 +64,9 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 3, delay: 2 }}
         >
-          <HeroAnimation /> <Spider />
-          {/* <div className={classes.hero__background}></div> */}
+          <HeroAnimation />
+          {/* <Spider /> */}
+          <div className={classes.hero__background}></div>
         </motion.div>
 
         <div className="social__icons">

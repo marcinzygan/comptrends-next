@@ -13,13 +13,14 @@
   justify-content: space-between;
 }
 .hero__background {
-  /* background-image: url(/background.jpg); */
+  background-image: url(/background.jpg);
   width: 155px;
   height: 200px;
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   transform: translateY(8px);
+  /* animation: scale 15s infinite; */
 }
 .hero__animation_container {
   display: flex;
@@ -107,5 +108,17 @@
     height: 700px;
     width: 520px;
     transform: translateY(27px);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }

@@ -1,4 +1,5 @@
 import SectionHeading from "../SectionHeading/SectionHeading";
+import Image from "next/image";
 import classes from "./OfferSection.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { showHelp, showData } from "../../State/checkScreenSizeSlice";

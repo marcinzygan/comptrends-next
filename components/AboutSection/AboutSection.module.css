@@ -7,7 +7,7 @@
 }
 .about__img {
   max-width: 350px;
-
+  object-fit: contain;
   padding: 5rem 1rem;
 }
 

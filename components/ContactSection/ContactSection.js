@@ -1,7 +1,9 @@
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 import classes from "./ContactSection.module.css";
+import Image from "next/image";
 const { motion } = require("framer-motion");
+
 // Import Components
 import Form from "../Form/Form";
 import SectionHeading from "../SectionHeading/SectionHeading";
@@ -90,11 +92,14 @@ const ContactSection = () => {
       </div>
       <div className={classes.contact__container}>
         {/* <div className={classes.contact__details}> */}
+
         <img
+          fill
           className={classes.contact__img}
           src="/contact.svg"
           alt="phone email details"
-        ></img>
+        />
+
         <div className={"social__icons" + " " + classes.social__icons_contact}>
           <Icon icon="entypo-social:facebook-with-circle" />
           <Icon icon="entypo-social:linkedin-with-circle" />

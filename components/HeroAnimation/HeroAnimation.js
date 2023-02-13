@@ -8,7 +8,7 @@ const HeroAnimation = () => {
         animate={{ backgroundColor: ["#ffff", "#58effb", "#ffff"] }}
         transition={{
           duration: 2,
-          delay: 1,
+          delay: 3,
           repeat: Infinity,
           repeatDelay: 3,
         }}
@@ -28,13 +28,14 @@ const HeroAnimation = () => {
         animate={{ backgroundColor: ["#ffff", "#58effb", "#ffff"] }}
         transition={{
           duration: 2,
-          delay: 3,
+          delay: 1,
           repeat: Infinity,
           repeatDelay: 3,
         }}
         className={classes.hero__dot}
       ></motion.div>
-      <motion.div
+
+      {/* <motion.div
         animate={{ backgroundColor: ["#ffff", "#ff11c7", "#ffff"] }}
         transition={{
           duration: 2,
@@ -43,7 +44,7 @@ const HeroAnimation = () => {
           repeatDelay: 3,
         }}
         className={classes.hero__line}
-      ></motion.div>
+      ></motion.div> */}
     </div>
   );
 };

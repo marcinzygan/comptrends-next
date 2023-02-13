@@ -1,8 +1,8 @@
 import React from "react";
+import Image from "next/image";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import Link from "next/link";
 import classes from "./AboutSection.module.css";
-import { Spider } from "../RiveAnimation/RiveSpider";
 
 const AboutSection = () => {
   return (
@@ -37,7 +37,7 @@ const AboutSection = () => {
             src="/about.png"
             alt="robot showing graph on coputer screen"
             className={classes.about__img}
-          ></img>
+          />
         </div>
 
         <div
@@ -62,7 +62,7 @@ const AboutSection = () => {
             src="/profit2.svg"
             alt="data flowing and profit increased graph"
             className={classes.about__img}
-          ></img>
+          />
         </div>
 
         <div className={"btn" + " " + classes.about__btn}>
