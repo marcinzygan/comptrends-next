@@ -28,6 +28,12 @@
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 300px) {
+  .next__img {
+    width: 280px;
+    height: 280px;
+  }
+}
 @media (min-width: 400px) {
   .next__img {
     width: 300px;
