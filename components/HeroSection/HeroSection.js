@@ -67,7 +67,7 @@ const Home = () => {
           <HeroAnimation /> {/* <Spider /> */}
           <div className={classes.hero__background}>
             {" "}
-            <Image
+            {/* <Image
               className={classes.background__img}
               priority
               src="/background.svg"
@@ -76,7 +76,7 @@ const Home = () => {
               (max-width: 1200px) 100vw,
               33vw"
               alt="yes"
-            />
+            /> */}
           </div>
         </motion.div>
 
