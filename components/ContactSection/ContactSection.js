@@ -94,7 +94,6 @@ const ContactSection = () => {
         {/* <div className={classes.contact__details}> */}
 
         <img
-          fill
           className={classes.contact__img}
           src="/contact.svg"
           alt="phone email details"

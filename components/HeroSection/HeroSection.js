@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 import Link from "next/link";
 const { motion } = require("framer-motion");
 import classes from "./HeroSection.module.css";
-
+import Image from "next/image";
 import HeroAnimation from "../HeroAnimation/HeroAnimation";
 import { Spider } from "../RiveAnimation/RiveSpider";
 
@@ -64,9 +64,20 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 3, delay: 2 }}
         >
-          <HeroAnimation />
-          {/* <Spider /> */}
-          <div className={classes.hero__background}></div>
+          <HeroAnimation /> {/* <Spider /> */}
+          <div className={classes.hero__background}>
+            {" "}
+            <Image
+              className={classes.background__img}
+              priority
+              src="/background.svg"
+              fill
+              sizes="(max-width: 768px) 50vw,
+              (max-width: 1200px) 100vw,
+              33vw"
+              alt="yes"
+            />
+          </div>
         </motion.div>
 
         <div className="social__icons">

@@ -33,11 +33,17 @@ const AboutSection = () => {
               skupić się na rozwijaniu swojego biznesu.
             </p>
           </div>
-          <img
-            src="/about.png"
-            alt="robot showing graph on coputer screen"
-            className={classes.about__img}
-          />
+          <div className={classes.next__img}>
+            <Image
+              fill
+              sizes="(max-width: 768px) 50vw,
+            (max-width: 1200px) 100vw,
+            33vw"
+              src="/about.png"
+              alt="robot showing graph on coputer screen"
+              className={classes.about__img}
+            />
+          </div>
         </div>
 
         <div
@@ -58,11 +64,17 @@ const AboutSection = () => {
               Comptrends zawsze będziesz jeden krok przed konkurencją.
             </p>
           </div>
-          <img
-            src="/profit2.svg"
-            alt="data flowing and profit increased graph"
-            className={classes.about__img}
-          />
+          <div className={classes.next__img}>
+            <Image
+              src="/profit2.svg"
+              alt="data flowing and profit increased graph"
+              className={classes.about__img}
+              fill
+              sizes="(max-width: 768px) 50vw,
+            (max-width: 1200px) 100vw,
+            33vw"
+            />
+          </div>
         </div>
 
         <div className={"btn" + " " + classes.about__btn}>
