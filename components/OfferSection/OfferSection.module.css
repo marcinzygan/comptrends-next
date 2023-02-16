@@ -109,7 +109,7 @@
     font-family: var(--ff-headings);
     font-size: 0.8rem;
     font-weight: var(--fw-bold);
-    color: var(--clr-accentFirst);
+    color: var(--clr-white);
   }
 
   .offer__img_mobile {
@@ -149,9 +149,12 @@
     display: block;
   }
 }
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
   .offer__more_txt {
     opacity: 1;
+  }
+  .offer__data_txt {
+    min-height: 300px;
   }
 }
 @media (min-width: 1600px) {

@@ -271,9 +271,9 @@ body {
   .h2__txt {
     min-height: 375px;
   }
-  .paragraph__txt {
+  /* .paragraph__txt {
     min-height: 300px;
-  }
+  } */
   /* .next__img {
     width: 600px;
     height: 600px;

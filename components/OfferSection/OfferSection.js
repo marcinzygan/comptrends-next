@@ -50,7 +50,7 @@ const OfferSection = () => {
               <span className="span__accentFirst">Pomagamy</span> w zdobywaniu
               przewagi konkurencyjnej.
             </motion.h2>
-            <p className="paragraph__txt">
+            <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
               Oferujemy szeroki zakres usług, które pomogą Ci w zdobywaniu
               przewagi konkurencyjnej na rynku. Nasze dane pochodzą z różnych
               źródeł, co zapewnia ich dokładność i aktualność. Dzięki nim,
