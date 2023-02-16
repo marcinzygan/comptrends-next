@@ -37,7 +37,7 @@ const OfferSection = () => {
               className="h2__txt"
               initial={"hidden"}
               whileInView={"visible"}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               variants={{
                 visible: {
                   opacity: 1,
@@ -180,7 +180,7 @@ const OfferSection = () => {
               className="h2__txt"
               initial={"hidden"}
               whileInView={"visible"}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               variants={{
                 visible: {
                   opacity: 1,

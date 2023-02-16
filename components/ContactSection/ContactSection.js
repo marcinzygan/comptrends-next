@@ -20,7 +20,7 @@ const ContactSection = () => {
         <motion.h1
           initial={"hidden"}
           whileInView={"visible"}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           variants={{
             visible: {
               opacity: 1,

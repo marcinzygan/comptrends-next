@@ -1,9 +1,10 @@
 /* SECTION HEADING COMPONENT  */
 .section__heading_container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
   /* margin-bottom: 5rem; */
 }
 .section__animation {
@@ -28,9 +29,9 @@
 .section__line_5 {
   background-color: var(--clr-white);
 }
-.section__heading_wrapper {
+/* .section__heading_wrapper {
   padding-left: 1rem;
-}
+} */
 .section__heading_txt {
   font-size: var(--fs-h3);
   font-family: var(--ff-headings);

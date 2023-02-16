@@ -21,8 +21,8 @@
   --fs-h2: 1.7rem;
   --fs-h3: 1rem;
   --fs-h4: 1rem;
-  --fs-txt: 0.7rem;
-  --fs-link: 0.7rem;
+  --fs-txt: 0.8rem;
+  --fs-link: 0.8rem;
   --fs-nav: 0.8rem;
 }
 /* FONT SIZES FOR DIFFERENT SCREENS */
@@ -53,7 +53,7 @@
     --fs-h3: 1.6rem;
     --fs-h4: 1.3rem;
     --fs-txt: 1rem;
-    --fs-link: 0.8rem;
+    /* --fs-link: 0.8rem; */
   }
 }
 @media (min-width: 1600px) {
@@ -87,8 +87,8 @@ section {
   min-height: 90vh;
   color: var(--clr-white);
   background-color: var(--clr-dark);
-  margin-top: 1rem;
-  padding: 1rem;
+  /* margin-top: 1rem; */
+  padding: 3rem 2rem;
   z-index: 2;
   /* padding-top: 2rem;
   padding-bottom: 2rem; */
