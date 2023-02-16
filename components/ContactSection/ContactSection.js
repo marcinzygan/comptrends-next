@@ -92,12 +92,17 @@ const ContactSection = () => {
       </div>
       <div className={classes.contact__container}>
         {/* <div className={classes.contact__details}> */}
-
-        <img
-          className={classes.contact__img}
-          src="/contact.svg"
-          alt="phone email details"
-        />
+        <div className={`next__img  ${classes.next__img_contact}`}>
+          <Image
+            className={classes.contact__img}
+            src="/contact.jpg"
+            alt="phone with email sign"
+            fill
+            sizes="(max-width: 768px) 50vw,
+          (max-width: 1200px) 100vw,
+          33vw"
+          />
+        </div>
 
         <div className={"social__icons" + " " + classes.social__icons_contact}>
           <Icon icon="entypo-social:facebook-with-circle" />

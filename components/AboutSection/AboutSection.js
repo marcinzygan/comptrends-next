@@ -33,7 +33,7 @@ const AboutSection = () => {
               skupić się na rozwijaniu swojego biznesu.
             </p>
           </div>
-          <div className={classes.next__img}>
+          <div className={"next__img"}>
             <Image
               fill
               sizes="(max-width: 768px) 50vw,
@@ -64,7 +64,7 @@ const AboutSection = () => {
               Comptrends zawsze będziesz jeden krok przed konkurencją.
             </p>
           </div>
-          <div className={classes.next__img}>
+          <div className={"next__img"}>
             <Image
               src="/profit2.svg"
               alt="data flowing and profit increased graph"

@@ -33,11 +33,14 @@
   font-weight: var(--fw-bold);
   font-size: var(--fs-h2);
 }
+.next__img_contact {
+  margin: 0 auto;
+}
 .contact__img {
   display: block;
-  max-width: 350px;
+  /* max-width: 350px; */
   margin: 0 auto;
-  padding: 5rem 1rem;
+  /* padding: 5rem 1rem; */
 }
 .contact__container {
   margin-top: 4rem;
@@ -85,11 +88,11 @@
   .contact__details {
     display: grid;
   }
-  .contact__img {
+  .next__img_contact {
     grid-row: 1/2;
     grid-column: 1/4;
-
-    width: 100%;
+    /* 
+    width: 100%; */
   }
   .contact__details_txt {
     grid-row: 2/3;
