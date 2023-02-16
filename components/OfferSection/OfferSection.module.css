@@ -20,7 +20,7 @@
 .circle__animation {
   /* height: 300px; */
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
 }
 .circle__one {
@@ -43,7 +43,7 @@
 .offer__img {
   /* max-width: 500px; */
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
@@ -54,7 +54,9 @@
   max-width: 350px;
   display: block;
   margin: auto;
-  padding: 5rem 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* padding: 5rem 1rem; */
 }
 .offer__btn {
   display: none;
@@ -64,10 +66,12 @@
   .offer__info_help {
     flex-direction: row-reverse;
     align-items: flex-start;
+    gap: 2rem;
   }
   .offer__info_data {
     flex-direction: row;
     align-items: flex-start;
+    gap: 2rem;
   }
 }
 @media (max-width: 1300px) {
@@ -92,8 +96,8 @@
   }
   .offer__btn {
     cursor: pointer;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    /* margin-top: 3rem;
+    margin-bottom: 3rem; */
     display: flex;
     justify-content: flex-start;
     gap: 1rem;

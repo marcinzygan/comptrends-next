@@ -68,7 +68,7 @@
 /* 1800px */
 @media (min-width: 1800px) {
   :root {
-    --fs-h1: 5.2rem;
+    /* --fs-h1: 5.2rem; */
     --fs-h2: 3rem;
     --fs-h3: 1.8rem;
     --fs-h4: 1.6rem;
@@ -88,7 +88,7 @@ section {
   color: var(--clr-white);
   background-color: var(--clr-dark);
   /* margin-top: 1rem; */
-  padding: 3rem 2rem;
+  margin: 3rem 2rem;
   z-index: 2;
   /* padding-top: 2rem;
   padding-bottom: 2rem; */
@@ -141,7 +141,7 @@ body {
 .h2__txt {
   font-family: var(--ff-headings);
   font-size: var(--fs-h2);
-  padding: 5rem 0 3rem 0;
+  padding: 5rem 0 4rem 0;
   max-width: 500px;
 }
 .h4__txt {
@@ -192,8 +192,8 @@ body {
   /* .h1__txt {
     padding-right: 2rem;
   } */
-  .section {
-    padding: 3rem;
+  section {
+    margin: 3rem;
   }
   .btn {
     width: 125px;
@@ -215,6 +215,10 @@ body {
 
 /* 800px */
 @media (min-width: 800px) {
+  section {
+    margin: 5rem 4rem 5rem 4rem;
+    padding: 0;
+  }
   .h1__txt {
     padding: 0;
   }
@@ -247,6 +251,9 @@ body {
 } */
 /* 1200px */
 @media (min-width: 1200px) {
+  section {
+    margin: 5rem 5rem 5rem 5rem;
+  }
   .next__img {
     width: 500px;
     height: 500px;
@@ -254,14 +261,17 @@ body {
 }
 /* 1300 */
 @media (min-width: 1300px) {
-  section {
+  /* section {
     margin: 5rem;
-  }
+  } */
   .iconify {
     height: 35px;
     width: 35px;
   }
   .h2__txt {
+    min-height: 375px;
+  }
+  .paragraph__txt {
     min-height: 300px;
   }
   /* .next__img {
@@ -272,6 +282,9 @@ body {
 
 /* 1600px */
 @media (min-width: 1600px) {
+  section {
+    margin: 5rem 7rem 5rem 7rem;
+  }
   .h2__txt {
     max-width: 750px;
   }
@@ -282,6 +295,9 @@ body {
 
 /* 1800px */
 @media (min-width: 1800px) {
+  section {
+    margin: 5rem 10rem 5rem 10rem;
+  }
   /* .h1__txt {
     padding-right: 10rem;
   } */

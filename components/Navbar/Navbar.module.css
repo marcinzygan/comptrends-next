@@ -164,6 +164,9 @@
   .logo {
     width: 175px;
   }
+  .nav {
+    padding: 2rem 4rem 0 4rem;
+  }
 }
 @media (min-width: 1300px) {
   .nav {
@@ -171,6 +174,6 @@
     padding-left: 5rem;
   }
   .logo {
-    width: 300 px;
+    width: 300px;
   }
 }

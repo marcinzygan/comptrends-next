@@ -41,6 +41,17 @@
   font-family: var(--ff-headings);
   font-size: var(--fs-txt);
 }
+@media (min-width: 600px) {
+  .section__heading_container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (min-width: 800px) {
+  .section__heading_container {
+    margin-bottom: 4rem;
+  }
+}
 /* 
 @media (min-width: 1300px) {
   .section__heading_container {

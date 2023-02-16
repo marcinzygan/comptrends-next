@@ -20,7 +20,7 @@
 .about__btn {
   margin: 0 auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10rem;
 }
 
 /* MEDIA QUERIES */
@@ -31,14 +31,15 @@
   .about__container {
     align-items: flex-start;
   }
-  .about__img {
+  /* .about__img {
     padding: 0 2rem;
-  }
+  } */
   .about__txt_container {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     /* margin-right: auto; */
+    gap: 2rem;
   }
   .about__txt_container2 {
     flex-direction: row-reverse;
