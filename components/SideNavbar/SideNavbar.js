@@ -7,6 +7,7 @@ export default function SideNavbar() {
       <div className={classes.side__item}>
         <Link
           to="home"
+          href="#home"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-195}
@@ -18,6 +19,7 @@ export default function SideNavbar() {
       <div className={classes.side__item}>
         <Link
           to="about"
+          href="#about"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-120}
@@ -29,6 +31,7 @@ export default function SideNavbar() {
       <div className={classes.side__item}>
         <Link
           to="offer"
+          href="#offer"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-120}
@@ -40,6 +43,7 @@ export default function SideNavbar() {
       <div className={classes.side__item}>
         <Link
           to="contact"
+          href="#contact"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-120}
