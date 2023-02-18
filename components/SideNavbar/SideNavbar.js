@@ -8,6 +8,7 @@ export default function SideNavbar() {
         <Link
           to="home"
           href="#home"
+          aria-label="home section"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-195}
@@ -20,6 +21,7 @@ export default function SideNavbar() {
         <Link
           to="about"
           href="#about"
+          aria-label="about section"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-120}
@@ -32,6 +34,7 @@ export default function SideNavbar() {
         <Link
           to="offer"
           href="#offer"
+          aria-label="offer section"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-120}
@@ -44,6 +47,7 @@ export default function SideNavbar() {
         <Link
           to="contact"
           href="#contact"
+          aria-label="contact section"
           activeClass={classes.side__link_selected}
           spy={true}
           offset={-120}
