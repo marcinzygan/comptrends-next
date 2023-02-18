@@ -49,7 +49,7 @@ export default function Navbar() {
           </div>
         </motion.button>
 
-        <ul
+        <div
           className={
             !isNavOpen
               ? classes.nav__list
@@ -60,7 +60,7 @@ export default function Navbar() {
           {isNavOpen && displayAnimation && <DotAnimation />}
 
           <div className={classes.link__container}>
-            <motion.li whileHover={"hover"} className={classes.nav__li}>
+            <motion.div whileHover={"hover"} className={classes.nav__li}>
               {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
@@ -91,10 +91,10 @@ export default function Navbar() {
                   },
                 }}
               ></motion.div>
-            </motion.li>
+            </motion.div>
           </div>
           <div className={classes.link__container}>
-            <motion.li whileHover={"hover"} className={classes.nav__li}>
+            <motion.div whileHover={"hover"} className={classes.nav__li}>
               {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
@@ -125,10 +125,10 @@ export default function Navbar() {
                   },
                 }}
               ></motion.div>
-            </motion.li>
+            </motion.div>
           </div>
           <div className={classes.link__container}>
-            <motion.li whileHover={"hover"} className={classes.nav__li}>
+            <motion.div whileHover={"hover"} className={classes.nav__li}>
               {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
@@ -159,10 +159,10 @@ export default function Navbar() {
                   },
                 }}
               ></motion.div>
-            </motion.li>
+            </motion.div>
           </div>
           <div className={classes.link__container}>
-            <motion.li whileHover={"hover"} className={classes.nav__li}>
+            <motion.div whileHover={"hover"} className={classes.nav__li}>
               {/* <motion.div
                 className={classes.nav__rectangle}
                 initial={{ y: -30, x: -27, opacity: 1 }}
@@ -193,9 +193,9 @@ export default function Navbar() {
                   },
                 }}
               ></motion.div>
-            </motion.li>
+            </motion.div>
           </div>
-        </ul>
+        </div>
       </motion.nav>
     </header>
   );
