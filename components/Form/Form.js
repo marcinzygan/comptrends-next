@@ -44,7 +44,7 @@ export default function Form() {
       onSubmit={sendEmail}
       className={classes.form__container}
     >
-      <label htmlFor="user_name" className={classes.form__label}>
+      <label for="user_name" className={classes.form__label}>
         Imię <span className="span__accentFirst">.</span>
       </label>
       <input
@@ -54,7 +54,7 @@ export default function Form() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <label htmlFor="user_lastName" className={classes.form__label}>
+      <label for="user_lastName" className={classes.form__label}>
         Nazwisko <span className="span__accentFirst">.</span>
       </label>
       <input
@@ -64,11 +64,11 @@ export default function Form() {
         value={lastName}
         onChange={(e) => setLastName(e.target.value)}
       />
-      <label htmlFor="email" className={classes.form__label}>
+      <label for="email" className={classes.form__label}>
         Email <span className="span__accentFirst">.</span>
       </label>
       <input type="email" name="user_email" className={classes.form__input} />
-      <label htmlFor="message" className={classes.form__label}>
+      <label for="message" className={classes.form__label}>
         Wiadomość <span className="span__accentFirst">.</span>
       </label>
       <textarea
