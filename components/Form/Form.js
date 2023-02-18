@@ -48,6 +48,7 @@ export default function Form() {
         Imię <span className="span__accentFirst">.</span>
       </label>
       <input
+        id="user_name"
         type="text"
         name="user_name"
         className={classes.form__input}
@@ -58,6 +59,7 @@ export default function Form() {
         Nazwisko <span className="span__accentFirst">.</span>
       </label>
       <input
+        id="user_lastName"
         type="text"
         name="user_lastName"
         className={classes.form__input}
@@ -67,11 +69,17 @@ export default function Form() {
       <label for="email" className={classes.form__label}>
         Email <span className="span__accentFirst">.</span>
       </label>
-      <input type="email" name="user_email" className={classes.form__input} />
+      <input
+        id="email"
+        type="email"
+        name="user_email"
+        className={classes.form__input}
+      />
       <label for="message" className={classes.form__label}>
         Wiadomość <span className="span__accentFirst">.</span>
       </label>
       <textarea
+        id="message"
         name="message"
         className={classes.form__input + " " + classes.form__textarea}
       />
