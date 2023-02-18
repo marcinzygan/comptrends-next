@@ -85,23 +85,11 @@ const OfferSection = () => {
               problemów i zwiększenie efektywności działania twojego biznesu.
             </motion.p>{" "}
           </div>
-          <img className={classes.offer__img_mobile} src="/profit.svg"></img>
-          {/* <motion.img
-            src="/profit.svg"
-            alt="comp"
+          <img
             className={classes.offer__img_mobile}
-            initial={"hidden"}
-            whileInView={"visible"}
-            viewport={{ once: true }}
-            variants={{
-              visible: {
-                opacity: 1,
-
-                transition: { duration: 4, delay: 0.5 },
-              },
-              hidden: { opacity: 0 },
-            }}
-          ></motion.img> */}
+            alt="profit graph"
+            src="/profit.svg"
+          ></img>
         </div>
 
         <div className={classes.offer__animation_container}>
@@ -109,7 +97,7 @@ const OfferSection = () => {
             {isHelpSHown && (
               <motion.img
                 src="/profit.svg"
-                alt="comp"
+                alt="profit graph"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, ease: "easeOut" }}
@@ -153,7 +141,7 @@ const OfferSection = () => {
             {isDataSHown && (
               <motion.img
                 src="/data.svg"
-                alt="comp"
+                alt="data graph"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 2, ease: "easeOut" }}
@@ -220,23 +208,11 @@ const OfferSection = () => {
               podejmowanie skutecznych decyzji i rozwój twojego biznesu.
             </motion.p>
           </div>
-          <img className={classes.offer__img_mobile} src="/data.svg"></img>
-          {/* <motion.img
-            src="/data.svg"
-            alt="comp"
+          <img
             className={classes.offer__img_mobile}
-            initial={"hidden"}
-            whileInView={"visible"}
-            viewport={{ once: true }}
-            variants={{
-              visible: {
-                opacity: 1,
-
-                transition: { duration: 4, delay: 0.5 },
-              },
-              hidden: { opacity: 0 },
-            }}
-          ></motion.img> */}
+            alt="data graph"
+            src="/data.svg"
+          ></img>
         </div>
       </div>
     </section>
