@@ -23,7 +23,6 @@
 
 .nav__button {
   padding: 1rem;
-
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -48,7 +47,6 @@
   cursor: pointer;
   position: relative;
   width: 150px;
-
   text-align: center;
 }
 .nav__li {
@@ -80,7 +78,6 @@
 
 .nav__link {
   position: relative;
-  /* padding: 0.5rem; */
   font-family: var(--ff-headings);
   font-weight: var(--fw-regular);
   font-size: var(--fs-nav);
@@ -90,7 +87,6 @@
 }
 .link__container:hover .nav__link {
   color: var(--clr-accentFirst);
-  /* font-weight: var(--fw-bold); */
 }
 
 @media (max-width: 1300px) {
@@ -107,13 +103,10 @@
     background-color: var(--clr-white);
     opacity: 0.999;
     z-index: 100;
-    /* clip-path: circle(0% at 50% 50%); */
     transform: translateX(+150%);
   }
 
   .nav__open {
-    /* show links */
-    /* clip-path: circle(150% at 50% 0); */
     transform: translateX(0%);
     z-index: 800;
   }

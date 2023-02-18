@@ -1,8 +1,6 @@
 /* FOOTER */
 .section__footer {
-  /* margin-top: 4rem; */
   min-height: 20vh;
-  /* position: relative; */
   border-top: 1px solid var(--clr-accentSecond);
   margin: 0;
   padding: 3rem 2rem;
@@ -35,10 +33,6 @@
   font-family: var(--ff-text);
   font-size: var(--fs-txt);
   padding: 0.25rem;
-  /* position: absolute;
-  bottom: 2%;
-  left: 50%;
-  transform: translate(-50%, 2%); */
 }
 .footer__copyright_container {
   height: 20vh;

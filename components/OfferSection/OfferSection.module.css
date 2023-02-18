@@ -1,6 +1,5 @@
 /* OFFER SECTION */
 .offer__animation_container {
-  /* position: relative; */
   height: 300px;
   width: 100%;
   margin: 0 auto;
@@ -56,7 +55,6 @@
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  /* padding: 5rem 1rem; */
 }
 .offer__btn {
   display: none;
@@ -96,16 +94,11 @@
   }
   .offer__btn {
     cursor: pointer;
-    /* margin-top: 3rem;
-    margin-bottom: 3rem; */
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
     align-items: center;
     width: 200px;
-    /* display: flex;
-    align-items: center;
-    gap: 0.5rem; */
     font-family: var(--ff-headings);
     font-size: 0.8rem;
     font-weight: var(--fw-bold);

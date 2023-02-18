@@ -31,9 +31,7 @@
   .about__container {
     align-items: flex-start;
   }
-  /* .about__img {
-    padding: 0 2rem;
-  } */
+
   .about__txt_container {
     width: 100%;
     flex-direction: row;
