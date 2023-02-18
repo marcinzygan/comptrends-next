@@ -5,7 +5,6 @@ const { motion } = require("framer-motion");
 import classes from "./HeroSection.module.css";
 import Image from "next/image";
 import HeroAnimation from "../HeroAnimation/HeroAnimation";
-import { Spider } from "../RiveAnimation/RiveSpider";
 
 const Home = () => {
   return (
