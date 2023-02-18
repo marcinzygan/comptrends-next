@@ -11,9 +11,9 @@ const Footer = () => {
       <footer className={classes.footer}>
         <div className={classes.footer__container}>
           <div className={classes.footer__links_container}>
-            <h4 className="h4__txt">
+            <div className="h4__txt">
               Mapa strony <span className="span__accentFirst">.</span>
-            </h4>
+            </div>
             <Link href="/#home" className={classes.footer__link} scroll={false}>
               Strona Główna
             </Link>
@@ -46,9 +46,9 @@ const Footer = () => {
             </Link>
           </div>
           <div className={classes.footer__links_container}>
-            <h4 className="h4__txt">
+            <div className="h4__txt">
               Kontakt <span className="span__accentFirst">.</span>
-            </h4>
+            </div>
             <>
               <p className={classes.footer__link}>Phone : +48 570 569 599</p>
             </>
@@ -60,9 +60,9 @@ const Footer = () => {
           </div>
           {/* SOCIAL MEDIA */}
           <div className={classes.footer__links_container}>
-            <h4 className="h4__txt">
+            <div className="h4__txt">
               Social media <span className="span__accentFirst">.</span>
-            </h4>
+            </div>
             <a className={classes.footer__link} href="https://facebook.com">
               Facebook
             </a>
@@ -75,9 +75,9 @@ const Footer = () => {
           </div>
           {/* CREDITS */}
           <div className={classes.footer__links_container}>
-            <h4 className="h4__txt">
+            <div className="h4__txt">
               Podziękowania <span className="span__accentFirst">.</span>
-            </h4>
+            </div>
             <Link className={classes.footer__link} href="/attribution">
               Prawa autorskie
             </Link>
@@ -85,9 +85,9 @@ const Footer = () => {
           {/* PRIVACY */}
           {/* CREDITS */}
           <div className={classes.footer__links_container}>
-            <h4 className="h4__txt">
+            <div className="h4__txt">
               Prywatność <span className="span__accentFirst">.</span>
-            </h4>
+            </div>
             <Link className={classes.footer__link} href="/privacy-policy">
               Polityka prywatności
             </Link>
