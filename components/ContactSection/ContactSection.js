@@ -118,8 +118,8 @@ const ContactSection = () => {
               classes.contact__details_phone
             }
           >
-            Telefon<span className="span__accentFirst"> : </span> +48 001 001
-            001
+            Telefon<span className="span__accentFirst"> : </span> +48 570 569
+            599
           </p>
           <p
             className={

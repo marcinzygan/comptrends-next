@@ -50,7 +50,7 @@ const Footer = () => {
               Kontakt <span className="span__accentFirst">.</span>
             </h4>
             <>
-              <p className={classes.footer__link}>Phone : +48 009 009 234</p>
+              <p className={classes.footer__link}>Phone : +48 570 569 599</p>
             </>
             <>
               <p className={classes.footer__link}>
