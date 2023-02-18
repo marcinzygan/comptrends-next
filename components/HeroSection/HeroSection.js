@@ -69,7 +69,7 @@ const Home = () => {
             <Image
               className={classes.background__img}
               priority
-              src="/background2.jpg"
+              src="/background3.jpg"
               fill
               sizes="(max-width: 768px) 50vw,
               (max-width: 1200px) 100vw,
