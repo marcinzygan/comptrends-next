@@ -13,10 +13,10 @@ export default function Form() {
 
     emailjs
       .sendForm(
-        "service_m4y9q3v",
-        "template_7lswfof",
+        "service_ovbui6c",
+        "template_u2ngtea",
         form.current,
-        "HVZH8z9LUzgQezsQL"
+        "xjSzyXn516d6O2Y4R"
       )
 
       .then(
@@ -44,7 +44,7 @@ export default function Form() {
       onSubmit={sendEmail}
       className={classes.form__container}
     >
-      <label className={classes.form__label}>
+      <label for="user_name" className={classes.form__label}>
         Imię <span className="span__accentFirst">.</span>
       </label>
       <input
@@ -54,7 +54,7 @@ export default function Form() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <label className={classes.form__label}>
+      <label for="user_lastName" className={classes.form__label}>
         Nazwisko <span className="span__accentFirst">.</span>
       </label>
       <input
@@ -64,11 +64,11 @@ export default function Form() {
         value={lastName}
         onChange={(e) => setLastName(e.target.value)}
       />
-      <label className={classes.form__label}>
+      <label for="email" className={classes.form__label}>
         Email <span className="span__accentFirst">.</span>
       </label>
       <input type="email" name="user_email" className={classes.form__input} />
-      <label className={classes.form__label}>
+      <label for="message" className={classes.form__label}>
         Wiadomość <span className="span__accentFirst">.</span>
       </label>
       <textarea
