@@ -35,6 +35,7 @@
 .section__heading_txt {
   font-size: var(--fs-h3);
   font-family: var(--ff-headings);
+  font-weight: var(--fw-bold);
 }
 .section__sub_heading {
   padding-top: 0.25rem;
