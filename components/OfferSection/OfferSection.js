@@ -183,10 +183,9 @@ const OfferSection = () => {
               Ci na sukces.
             </motion.h2>
             <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
-              Dzięki naszym danym będziesz miał wgląd w ceny produktów
-              konkurencji, ich zmiany , a także trendy rynkowe. <br></br>
               Nasza usługa zaoszczędzi Ci czas i przyczyni się do zwiększenia
-              zysków.
+              zysków. <br></br> Dzięki naszym danym zyskasz codzienny dostęp do
+              potrzebnych Ci informacji.
             </p>
             <div onClick={toggleData} className={classes.offer__btn}>
               {isDataSHown ? "Czytaj Mniej" : "Czytaj Wjęcej"}
