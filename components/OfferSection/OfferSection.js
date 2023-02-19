@@ -184,8 +184,9 @@ const OfferSection = () => {
             </motion.h2>
             <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
               Dzięki naszym danym będziesz miał wgląd w ceny produktów
-              konkurencji, ich zmian , a także trendy rynkowe. Nasza usługa
-              zaoszczędzi Ci czas i przyczyni się do zwiększenia zysków.
+              konkurencji, ich zmiany , a także trendy rynkowe. <br></br>
+              Nasza usługa zaoszczędzi Ci czas i przyczyni się do zwiększenia
+              zysków.
             </p>
             <div onClick={toggleData} className={classes.offer__btn}>
               {isDataSHown ? "Czytaj Mniej" : "Czytaj Wjęcej"}
@@ -203,7 +204,7 @@ const OfferSection = () => {
               className={"paragraph__txt" + " " + classes.offer__more_txt}
             >
               W Comptrends, pomagamy Ci w osiągnięciu sukcesu poprzez
-              dostarczanie Ci niezbędnych danych i usług, które pozwolą Ci na
+              dostarczanie niezbędnych danych i usług, które pozwolą Ci na
               podejmowanie skutecznych decyzji i rozwój twojego biznesu.
             </motion.p>
           </div>
