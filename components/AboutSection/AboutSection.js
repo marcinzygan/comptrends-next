@@ -20,10 +20,10 @@ const AboutSection = () => {
               rynkowych.
             </h2>
             <p className={"paragraph__txt"}>
-              Nasza firma specjalizuje się w dostarczaniu firmom dokładnych i
-              aktualnych danych dotyczących ich konkurencji. Dzięki naszej
-              usłudze zbierania danych będziesz mieć codzienny dostęp do ważnych
-              informacji, w tym cen, zmian cen i więcej.
+              Specjalizujemy się w dostarczaniu firmom dokładnych i aktualnych
+              danych dotyczących ich konkurencji. Dzięki naszej usłudze będziesz
+              mieć codzienny dostęp do ważnych informacji produktowych i
+              marketingowych.
             </p>
             <p className={"paragraph__txt"}>
               Dzięki śledzeniu najnowszych trendów i zmian w twojej branży,
