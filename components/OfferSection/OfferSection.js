@@ -51,12 +51,13 @@ const OfferSection = () => {
               przewagi konkurencyjnej.
             </motion.h2>
             <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
-              Oferujemy szeroki zakres usług, które pomogą Ci w zdobywaniu
-              przewagi konkurencyjnej na rynku. Nasze dane pochodzą z różnych
-              źródeł, co zapewnia ich dokładność i aktualność. Dzięki nim,
-              będziesz mieć wgląd w ceny produktów konkurencji, zmiany cen, a
-              także trendy rynkowe. To pozwoli Ci na odpowiednie dostosowanie
-              swojej oferty, cen oraz strategii marketingowej.
+              Oferujemy usługę nowoczesnego webscrape'ingu która pomoże Ci w
+              zdobywaniu przewagi na rynku. Dane które pozyskujemy są dokładne i
+              zawsze aktualne.<br></br>
+              Dzięki nim, będziesz mieć wgląd w ceny produktów konkurencji, ich
+              zmiany , a także śledzić trendy rynkowe. To pozwoli Ci na
+              odpowiednie dostosowanie twojej oferty, oraz strategii
+              marketingowej.
             </p>
             <div
               onClick={toggleHelp}
@@ -75,13 +76,13 @@ const OfferSection = () => {
               }}
               className={"paragraph__txt" + " " + classes.offer__more_txt}
             >
-              Nasze usługi pozwolą Ci również na monitorowanie działań
-              konkurencji, co pozwoli Ci na reagowanie na ich działania, a także
-              na wykorzystywanie ich słabych punktów. Dzięki temu, będziesz mógł
-              skuteczniej walczyć o klientów i rozwijać swój biznes. <br></br>
+              Współpraca z Comptrends pozwoli Ci na lepsze rozumienie rynku , a
+              tym samym na odpowiednie dostosowanie oferty , cen oraz strategii
+              marketingowej. Dzięki temu, będziesz mógł skuteczniej walczyć o
+              klientów i rozwijać swój biznes. <br></br>
               <br></br>
               Dane, które Ci dostarczymy, pozwolą Ci również na lepsze
-              planowanie i prognozowanie, co pozwoli na uniknięcie potencjalnych
+              planowanie i prognozowanie, oraz uniknięcie potencjalnych
               problemów i zwiększenie efektywności działania twojego biznesu.
             </motion.p>{" "}
           </div>
