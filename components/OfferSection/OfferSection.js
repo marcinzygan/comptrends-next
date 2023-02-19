@@ -76,10 +76,9 @@ const OfferSection = () => {
               }}
               className={"paragraph__txt" + " " + classes.offer__more_txt}
             >
-              Współpraca z Comptrends pozwoli Ci na lepsze rozumienie rynku , a
-              tym samym na odpowiednie dostosowanie oferty , cen oraz strategii
-              marketingowej. Dzięki temu, będziesz mógł skuteczniej walczyć o
-              klientów i rozwijać swój biznes. <br></br>
+              Współpraca z Comptrends pozwoli Ci na lepsze rozumienie rynku ,
+              będziesz mógł skuteczniej walczyć o klientów i rozwijać swój
+              biznes. <br></br>
               <br></br>
               Dane, które Ci dostarczymy, pozwolą Ci również na lepsze
               planowanie i prognozowanie, oraz uniknięcie potencjalnych
@@ -184,10 +183,9 @@ const OfferSection = () => {
               Ci na sukces.
             </motion.h2>
             <p className={"paragraph__txt" + " " + classes.offer__data_txt}>
-              Nasze dane pozwolą Ci na lepsze rozumienie rynku, a tym samym na
-              odpowiednie dostosowanie oferty, cen oraz strategii marketingowej.
-              Dzięki nim będziesz miał wgląd w ceny produktów konkurencji,
-              zmiany cen, a także trendy rynkowe.
+              Dzięki naszym danym będziesz miał wgląd w ceny produktów
+              konkurencji, ich zmian , a także trendy rynkowe. Nasza usługa
+              zaoszczędzi Ci czas i przyczyni się do zwiększenia zysków.
             </p>
             <div onClick={toggleData} className={classes.offer__btn}>
               {isDataSHown ? "Czytaj Mniej" : "Czytaj Wjęcej"}
