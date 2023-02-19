@@ -53,10 +53,10 @@ const AboutSection = () => {
         >
           <div>
             <p className={"paragraph__txt"}>
-              Nasze dane są zbierane z różnych źródeł, co zapewnia ich
-              dokładność i niezawodność. Dzięki Comptrends będziesz mieć
-              informacje potrzebne do podejmowania informowanych decyzji
-              dotyczących swoich produktów i cen.
+              Pozyskujemy dane analizując domeny www oraz social media ,
+              zapewniamy dokładność i niezawodność. Dzięki Comptrends będziesz
+              mieć informacje potrzebne do podejmowania ważnych decyzji
+              dotyczących twoich produktów i cen.
             </p>
             <p className={"paragraph__txt"}>
               Zapisz się na naszą usługę już dziś i zacznij zyskiwać przewagę
