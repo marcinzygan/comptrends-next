@@ -16,4 +16,4 @@
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 - Have a nice day 🌞
-# This project is Live <a href="https://comtrends.eu/">Here</a> ! Enjoy .
+# This project is Live <a href="https://comptrends.eu/">Here</a> ! Enjoy .
