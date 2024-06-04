@@ -11,11 +11,11 @@ This is a commercial website for [Comptrends.eu](https://comptrends.eu).
 
 ## Features Implemented
 
-- **Project designed in Figma:** The entire layout and user interface were meticulously designed using Figma.
+- **Project designed in Figma:** The entire layout and user interface were designed using Figma.
 - **Built with Next.js:** The website is developed using the Next.js framework for optimal performance and SEO.
 - **State Management with Redux Toolkit:** Redux Toolkit is utilized for efficient state management throughout the application.
 - **Animations with Framer Motion:** Smooth and dynamic animations are implemented using Framer Motion.
-- **Contact Form with Email.js:** The contact form functionality is powered by Email.js, ensuring reliable communication.
+- **Contact Form with Email.js:** The contact form functionality is powered by Email.js.
 
 ## 📫 Connect with Me
 
