@@ -4,7 +4,7 @@
 
 ## About This Project
 
-This is a commercial website for [Comptrends.eu](https://comptrends.eu).
+This is a commercial website for [Comptrends.eu](https://comptrendseu.netlify.app/).
 
 - This project was created for a data scraping company called Comptrends.
 - I have designed the layout for mobile and desktop screen sizes in Figma.
@@ -25,5 +25,5 @@ Have a nice day 🌞
 
 ## Live Project
 
-The project is live and can be visited [here](https://comptrends.eu/)! Enjoy.
+The project is live and can be visited [here](https://comptrendseu.netlify.app/)! Enjoy.
 
